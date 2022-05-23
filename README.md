@@ -47,13 +47,21 @@ In players_raw.csv, element_type is the field that corresponds to the position.
 
 If you use data from here for your website or blog posts, then I would humbly request that you please add a link back to this repo as the data source (and I would in turn add a link to your post/site as a notable usage of this repo).
 
+### Downloading all data
+
+Fetching data:
+
+```
+python global_scraper.py
+```
+
 ## Downloading Your Team Data
 
 You can download the data for your team by executing the following steps:
 
 ```
-python teams_scraper.py <team_id>
-#Eg: python teams_scraper.py 4582
+python teams_scraper.py <team_id> <season_short_code> <start_gw>
+#Eg: python teams_scraper.py 4582 21_22 1
 ```
 
 This will create a new folder called "team_<team_id>_data18-19" with individual files of all the important data

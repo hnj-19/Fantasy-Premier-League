@@ -8,7 +8,7 @@ def merge_data():
 
     df = pd.DataFrame()
     for i,j in zip(season_latin, encoding_latin):
-        data = pd.read_csv(import_merged_gw(season=f'{i}'), encoding=f'{j}')
+        data = pd.read_csv(import_merged_gw(season=i), encoding=j)
         data['season'] = i
         df = df.append(data, ignore_index=True, sort=False)
 

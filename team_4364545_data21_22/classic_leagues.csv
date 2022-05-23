@@ -1,0 +1,9 @@
+,id,name,short_name,created,closed,rank,max_entries,league_type,scoring,admin_entry,start_event,entry_can_leave,entry_can_admin,entry_can_invite,has_cup,cup_league,cup_qualified,entry_rank,entry_last_rank
+0,6,Chelsea,team-6,2021-06-22T10:37:32.973391Z,False,,,s,c,,1,False,False,False,True,2400367.0,True,77439,84894
+1,261,England,region-241,2021-06-22T10:37:38.498997Z,False,,,s,c,,1,False,False,False,True,2393698.0,True,225723,246742
+2,276,Gameweek 1,event-1,2021-06-22T10:37:38.853542Z,False,,,s,c,,1,False,False,False,False,,,800756,873705
+3,314,Overall,overall,2021-06-22T10:37:39.651966Z,False,,,s,c,,1,False,False,False,True,2382391.0,True,805758,879409
+4,24931,Insight Gardeners League,,2021-06-22T13:54:40.231246Z,False,,,x,c,130436.0,1,True,False,False,False,,,13,13
+5,478287,Global Rates,,2021-08-02T10:01:09.093463Z,False,,,x,c,41350.0,1,True,False,False,False,,,3,3
+6,913729,East Midlands Away Days,,2021-08-10T11:07:26.341200Z,False,,,x,c,3981105.0,1,False,False,False,True,2484319.0,True,8,12
+7,1030360,Betting soc Classic,,2021-08-11T12:47:18.286403Z,False,,,x,c,1995707.0,1,True,False,False,False,,,6,6
