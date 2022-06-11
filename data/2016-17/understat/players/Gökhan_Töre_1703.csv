@@ -1,0 +1,6 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,2,0.10578892379999161,49,FWR,West Ham,Middlesbrough,1,1,2016-10-01,526,2016,127493,0,0,0,0,0.10578892379999161,0.07139186561107635,0,1703,Gökhan Töre
+0,0,0,2,Sub,West Ham,Watford,2,4,2016-09-10,497,2016,126229,0,0,0,0,0,0,0,1703,Gökhan Töre
+0,0,0,48,MC,Manchester City,West Ham,3,1,2016-08-28,490,2016,125849,0.2658848464488983,0,2,0,0,0.14422085881233215,0,1703,Gökhan Töre
+0,3,0.18186834454536438,90,AMR,West Ham,Bournemouth,1,0,2016-08-21,480,2016,125668,0.8516207337379456,1,4,0,0.18186834454536438,1.0656882524490356,0.12392781674861908,1703,Gökhan Töre
+0,0,0,56,Sub,Chelsea,West Ham,2,1,2016-08-15,470,2016,124975,0,0,0,0,0,0,0,1703,Gökhan Töre

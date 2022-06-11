@@ -1,0 +1,4 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,0,0,8,Sub,Fulham,Tottenham,1,2,2019-01-20,9424,2018,303845,0,0,0,0,0,0,0,6839,Ibrahima Cissé
+0,0,0,62,MC,Arsenal,Fulham,4,1,2019-01-01,9406,2018,303091,0,0,0,0,0,0,0,6839,Ibrahima Cissé
+0,0,0,15,Sub,Manchester United,Fulham,4,1,2018-12-08,9349,2018,278250,0,0,0,0,0,0.019122401252388954,0.019122401252388954,6839,Ibrahima Cissé

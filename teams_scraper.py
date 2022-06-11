@@ -17,7 +17,7 @@ def store_data(team_id, output_folder, start_gw):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python teams_scraper.py <team_id> <season_short_code> <start_gw>. Eg: python teams_scraper.py 5000 21_22 1")
+        print("Usage: python teams_scraper.py <team_id> <season_short_code> <start_gw>. Eg: python teams_scraper.py 5000 2021-22 1")
         sys.exit(1)
 
     team_id = int(sys.argv[1])
@@ -28,7 +28,7 @@ def main():
     else:
         start_gw = 1
 
-    output_folder = "team_" + sys.argv[1] + "_data" + season
+    output_folder = "teams/" + sys.argv[1] + "/" + season
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
     store_data(team_id, output_folder, start_gw)

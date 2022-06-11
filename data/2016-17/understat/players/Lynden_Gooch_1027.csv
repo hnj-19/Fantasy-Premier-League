@@ -1,0 +1,12 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,0,0,27,Sub,Chelsea,Sunderland,5,1,2017-05-21,3512,2016,125219,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,0,0,12,Sub,Arsenal,Sunderland,2,0,2017-05-16,3470,2016,135116,0,0,0,0,0,0.11316473037004471,0.11316473037004471,1027,Lynden Gooch
+0,0,0,7,Sub,Liverpool,Sunderland,2,0,2016-11-26,2710,2016,128095,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,1,0.10812582820653915,1,Sub,Bournemouth,Sunderland,1,2,2016-11-05,2687,2016,127956,0,0,0,0,0.10812582820653915,0.10812582820653915,0,1027,Lynden Gooch
+0,0,0,4,Sub,Sunderland,Arsenal,1,4,2016-10-29,2677,2016,127805,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,0,0,13,Sub,West Ham,Sunderland,1,0,2016-10-22,542,2016,127482,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,0,0,1,Sub,Sunderland,West Bromwich Albion,1,1,2016-10-01,523,2016,127277,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,0,0,58,ML,Sunderland,Everton,0,3,2016-09-12,500,2016,126170,0.09542831033468246,0,1,0,0,0.12364008277654648,0.12364008277654648,1027,Lynden Gooch
+0,0,0,78,MC,Southampton,Sunderland,1,1,2016-08-27,484,2016,125877,0,0,0,0,0,0,0,1027,Lynden Gooch
+0,2,0.22337386012077332,90,AMC,Sunderland,Middlesbrough,1,2,2016-08-21,479,2016,125531,0.052204761654138565,0,2,0,0.22337386012077332,0.3660791218280792,0.1427052617073059,1027,Lynden Gooch
+0,0,0,66,AML,Manchester City,Sunderland,2,1,2016-08-13,467,2016,125079,0.1080598309636116,0,1,0,0,0,0,1027,Lynden Gooch

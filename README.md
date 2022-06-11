@@ -55,13 +55,19 @@ Fetching data:
 python global_scraper.py
 ```
 
+Merging data:
+
+```
+python global_merger.py
+```
+
 ## Downloading Your Team Data
 
 You can download the data for your team by executing the following steps:
 
 ```
 python teams_scraper.py <team_id> <season_short_code> <start_gw>
-#Eg: python teams_scraper.py 4582 21_22 1
+#Eg: python teams_scraper.py 4364545 21_22 1
 ```
 
 This will create a new folder called "team_<team_id>_data18-19" with individual files of all the important data

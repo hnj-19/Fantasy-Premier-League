@@ -1,0 +1,4 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,1,0.04431283473968506,9,Sub,Fulham,Cardiff,1,0,2019-04-27,9553,2018,328351,0.03215847909450531,0,1,0,0.04431283473968506,0.3064286708831787,0.22995734214782715,7340,Rhys Healey
+0,0,0,7,Sub,Wolverhampton Wanderers,Cardiff,2,0,2019-03-02,9477,2018,305263,0,0,0,0,0,0,0,7340,Rhys Healey
+0,0,0,14,Sub,Cardiff,Huddersfield,0,0,2019-01-12,9414,2018,303439,0,0,0,0,0,0,0,7340,Rhys Healey

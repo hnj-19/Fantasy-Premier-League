@@ -1,0 +1,8 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,0,0,1,Sub,Tottenham,Leicester,3,0,2020-07-19,12010,2019,409796,0,0,0,0,0,0,0,8257,Gedson Fernandes
+0,0,0,1,Sub,Bournemouth,Tottenham,0,0,2020-07-09,11975,2019,407047,0,0,0,0,0,0.10753916949033737,0.10753916949033737,8257,Gedson Fernandes
+0,1,0.019950563088059425,17,Sub,Tottenham,Manchester United,1,1,2020-06-19,11936,2019,400821,0,0,0,0,0.019950563088059425,0.019950563088059425,0,8257,Gedson Fernandes
+0,0,0,6,Sub,Tottenham,Wolverhampton Wanderers,2,3,2020-03-01,11920,2019,387601,0.07151387631893158,0,1,0,0,0.07151387631893158,0,8257,Gedson Fernandes
+0,0,0,4,Sub,Aston Villa,Tottenham,2,3,2020-02-16,11894,2019,387041,0,0,0,0,0,0,0,8257,Gedson Fernandes
+0,0,0,14,Sub,Tottenham,Norwich,2,1,2020-01-22,11880,2019,386484,0,0,0,0,0,0.04856030270457268,0.04856030270457268,8257,Gedson Fernandes
+0,0,0,8,Sub,Watford,Tottenham,0,0,2020-01-18,11871,2019,386035,0.020396310836076736,0,1,0,0,0.020396310836076736,0,8257,Gedson Fernandes

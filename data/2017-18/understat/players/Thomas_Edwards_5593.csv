@@ -1,0 +1,7 @@
+goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
+0,1,0.01441098004579544,90,DR,Stoke,Newcastle United,0,1,2018-01-01,7337,2017,206630,0,0,0,0,0.01441098004579544,0,0,5593,Thomas Edwards
+0,0,0,90,DR,Chelsea,Stoke,5,0,2017-12-30,7320,2017,206230,0,0,0,0,0,0,0,5593,Thomas Edwards
+0,0,0,90,DR,Huddersfield,Stoke,1,1,2017-12-26,7312,2017,205650,0,0,0,0,0,0.04342763498425484,0.04342763498425484,5593,Thomas Edwards
+0,0,0,90,DR,Stoke,West Bromwich Albion,3,1,2017-12-23,7306,2017,205443,0,0,0,0,0,0.5579591393470764,0.5579591393470764,5593,Thomas Edwards
+0,0,0,71,DMR,Tottenham,Stoke,5,1,2017-12-09,7270,2017,199004,0,0,0,0,0,0.04167966917157173,0.04167966917157173,5593,Thomas Edwards
+0,0,0,55,DR,Manchester City,Stoke,7,2,2017-10-14,7194,2017,178452,0.5755751729011536,0,1,0,0,0.5755751729011536,0.5755751729011536,5593,Thomas Edwards

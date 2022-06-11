@@ -20,10 +20,11 @@ def get_data(url):
             filtered_scripts += [script]
     return scripts
 
-def get_epl_data():
-    scripts = get_data("https://understat.com/league/EPL/2021")
+def get_epl_data(season=2021):
+    scripts = get_data(f"https://understat.com/league/EPL/{season}")
     teamData = {}
     playerData = {}
+    datesData = {}
     for script in scripts:
         for c in script.contents:
             split_data = c.split('=')
@@ -36,7 +37,12 @@ def get_epl_data():
                 content = re.findall(r'JSON\.parse\(\'(.*)\'\)',split_data[1])
                 decoded_content = codecs.escape_decode(content[0], "hex")[0].decode('utf-8')
                 playerData = json.loads(decoded_content)
-    return teamData, playerData
+            elif data == 'var datesData':
+                content = re.findall(r'JSON\.parse\(\'(.*)\'\)',split_data[1])
+                decoded_content = codecs.escape_decode(content[0], "hex")[0].decode('utf-8')
+                datesData = json.loads(decoded_content)
+    datesData = pd.json_normalize(datesData, sep = '_')
+    return teamData, playerData, datesData
 
 def get_player_data(id):
     scripts = get_data("https://understat.com/player/" + str(id))
@@ -61,23 +67,44 @@ def get_player_data(id):
                 groupsData = json.loads(decoded_content)
     return matchesData, shotsData, groupsData
 
-def parse_epl_data(outfile_base):
-    teamData,playerData = get_epl_data()
+def get_matches_data(season=2021):
+    scripts = get_data(f"https://understat.com/league/EPL/{season}")
+    datesData = {}
+    for script in scripts:
+        for c in script.contents:
+            split_data = c.split('=')
+            data = split_data[0].strip()
+            if data == 'var datesData':
+                content = re.findall(r'JSON\.parse\(\'(.*)\'\)',split_data[1])
+                decoded_content = codecs.escape_decode(content[0], "hex")[0].decode('utf-8')
+                datesData = json.loads(decoded_content)
+    matchesData = pd.json_normalize(datesData, sep = '_')
+    return matchesData
+
+
+def parse_epl_data(outfile_base, season):
+    season_short = season[0:4]
+    teamData,playerData, datesData = get_epl_data(season_short)
     new_team_data = []
     for t,v in teamData.items():
         new_team_data += [v]
     for data in new_team_data:
         team_frame = pd.DataFrame.from_records(data["history"])
         team = data["title"].replace(' ', '_')
-        team_frame.to_csv(os.path.join(outfile_base, 'understat_' + team + '.csv'), index=False)
+        team_frame['team'] = team
+        team_frame.to_csv(os.path.join(outfile_base, 'teams/understat_' + team + '.csv'), index=False)
     player_frame = pd.DataFrame.from_records(playerData)
     player_frame.to_csv(os.path.join(outfile_base, 'understat_player.csv'), index=False)
     for d in playerData:
         matches, shots, groups = get_player_data(int(d['id']))
         indi_player_frame = pd.DataFrame.from_records(matches)
+        indi_player_frame['Understat_ID'] = d['id']
+        indi_player_frame['player_name'] = d['player_name']
         player_name = d['player_name']
         player_name = player_name.replace(' ', '_')
-        indi_player_frame.to_csv(os.path.join(outfile_base, player_name + '_' + d['id'] + '.csv'), index=False)
+        indi_player_frame.to_csv(os.path.join(outfile_base, 'players/', player_name + '_' + d['id'] + '.csv'), index=False)
+    understat_players_merge(season)
+    datesData.to_csv(os.path.join(outfile_base, 'understat_fixtures.csv'), index=False)
 
 class PlayerID:
     def __init__(self, us_id, fpl_id, us_name, fpl_name):
@@ -116,12 +143,24 @@ def match_ids(understat_dir, data_dir):
             players += [player]
 
     with open(os.path.join(data_dir, 'id_dict.csv'), 'w+') as outf:
-        outf.write('Understat_ID, FPL_ID, Understat_Name, FPL_Name\n')
+        outf.write('Understat_ID,FPL_ID,Understat_Name,FPL_Name\n')
         for p in players:
             outf.write(p.us_id + "," + p.fpl_id + "," + p.us_name + "," + p.fpl_name + "\n")
 
+def understat_players_merge(season='2021-22'):
+    df = pd.DataFrame()
+    directory = os.path.join('data', season, 'understat/players')
+    for root,dirs,files in os.walk(directory):
+        for file in files:
+            if file.endswith(".csv"):
+                tmp = pd.read_csv(os.path.join(directory,file))
+                df = pd.concat([df,tmp],axis=0)
+    outfile = os.path.join('data', season, 'understat')
+    df.to_csv(outfile + '/understat_players_merged.csv', index = False)
+    return df
+
 def main():
-    #parse_epl_data('data/2021-22/understat')
+    #parse_epl_data('data/2021-22/understat/')
     #md, sd, gd = get_player_data(318)
     #match_frame = pd.DataFrame.from_records(md)
     #match_frame.to_csv('auba.csv', index=False)
