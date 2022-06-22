@@ -1,3 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,0,0,16,Sub,Liverpool,Cardiff,4,1,2018-10-27,9288,2018,276558,0,0,0,0,0,0.026595035567879677,0.026595035567879677,7215,Loïc Damour
-0,1,0.031248409301042557,1,Sub,Cardiff,Fulham,4,2,2018-10-20,9282,2018,276406,0,0,0,0,0.031248409301042557,0.4242631793022156,0.3930147588253021,7215,Loïc Damour

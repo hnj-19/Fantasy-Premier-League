@@ -1,3 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,1,0.007464701309800148,1,Sub,Leicester,Manchester United,0,2,2020-07-26,12018,2019,411486,0,0,0,0,0.007464701309800148,0,0,8563,George Hirst
-0,2,0.09313809126615524,4,Sub,Tottenham,Leicester,3,0,2020-07-19,12010,2019,409813,0,0,0,0,0.09313809126615524,0.021223096176981926,0,8563,George Hirst

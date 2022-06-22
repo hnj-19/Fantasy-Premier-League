@@ -1,3 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,0,0,17,Sub,Southampton,Sheffield United,3,1,2020-07-26,12015,2019,411439,0,0,0,0,0,0,0,8061,Leon Clarke
-0,1,0.42813047766685486,12,Sub,Sheffield United,Liverpool,0,1,2019-09-28,11703,2019,354343,0,0,0,0,0.42813047766685486,0.4880923330783844,0.05996185913681984,8061,Leon Clarke

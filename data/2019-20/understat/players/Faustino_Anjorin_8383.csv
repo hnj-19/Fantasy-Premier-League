@@ -1,9 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,2,0.039810098707675934,65,AML,Nizhny Novgorod,Lokomotiv Moscow,1,2,2021-10-30,16235,2021,492405,0,0,0,0,0.039810098707675934,0.10362289100885391,0.10362289100885391,8383,Faustino Anjorin
-0,1,0.020344482734799385,10,Sub,Lokomotiv Moscow,PFC Sochi,2,1,2021-10-25,16228,2021,491089,0,0,0,0,0.020344482734799385,0.020344482734799385,0,8383,Faustino Anjorin
-0,0,0,18,Sub,Rubin Kazan,Lokomotiv Moscow,2,2,2021-10-16,16220,2021,488070,0.08930470794439316,0,2,0,0,0.11055910587310791,0.021254396066069603,8383,Faustino Anjorin
-0,0,0,46,FW,Lokomotiv Moscow,FC Rostov,1,2,2021-10-03,16211,2021,487502,0,0,0,0,0,0,0,8383,Faustino Anjorin
-0,0,0,7,Sub,Khimki,Lokomotiv Moscow,0,0,2021-09-25,16206,2021,484364,0,0,0,0,0,0,0,8383,Faustino Anjorin
-0,0,0,25,Sub,Ural,Lokomotiv Moscow,0,0,2021-09-20,16199,2021,483245,0.024433283135294914,0,1,0,0,0.024433283135294914,0,8383,Faustino Anjorin
-0,0,0,7,Sub,Lokomotiv Moscow,Krylya Sovetov Samara,2,0,2021-09-11,16188,2021,480003,0,0,0,0,0,0,0,8383,Faustino Anjorin
-0,1,0.016682621091604233,19,Sub,Chelsea,Everton,4,0,2020-03-08,11925,2019,387819,0,0,0,0,0.016682621091604233,0.016682621091604233,0,8383,Faustino Anjorin

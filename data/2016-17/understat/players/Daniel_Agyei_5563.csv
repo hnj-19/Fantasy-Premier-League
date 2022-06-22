@@ -1,4 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,2,0.0976220890879631,13,Sub,Burnley,Manchester United,0,2,2017-04-23,3472,2016,134083,0,0,0,0,0.0976220890879631,0.0976220890879631,0,5563,Daniel Agyei
-0,0,0,6,Sub,Everton,Burnley,3,1,2017-04-15,3467,2016,134620,0,0,0,0,0,0,0,5563,Daniel Agyei
-0,0,0,1,Sub,Liverpool,Burnley,2,1,2017-03-12,3419,2016,125466,0,0,0,0,0,0,0,5563,Daniel Agyei

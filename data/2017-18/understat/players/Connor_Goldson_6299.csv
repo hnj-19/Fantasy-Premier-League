@@ -1,4 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,0,0,18,Sub,Liverpool,Brighton,4,0,2018-05-13,7495,2017,240257,0,0,0,0,0,0,0,6299,Connor Goldson
-0,0,0,90,DC,Brighton,Chelsea,0,4,2018-01-20,7350,2017,208897,0,0,0,0,0,0.33209651708602905,0.33209651708602905,6299,Connor Goldson
-0,3,0.26348188519477844,90,DC,Brighton,Watford,1,0,2017-12-23,7305,2017,202891,0,0,0,0,0.26348188519477844,0.029757997021079063,0.029757997021079063,6299,Connor Goldson

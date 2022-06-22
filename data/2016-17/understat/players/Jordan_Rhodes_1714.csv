@@ -1,7 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,0,0,12,Sub,Middlesbrough,Liverpool,0,3,2016-12-14,3127,2016,130695,0,0,0,0,0,0,0,1714,Jordan Rhodes
-0,2,0.16513653099536896,90,FW,Southampton,Middlesbrough,1,0,2016-12-11,3123,2016,130268,0,0,0,0,0.16513653099536896,0.16513653099536896,0,1714,Jordan Rhodes
-0,0,0,3,Sub,Middlesbrough,Bournemouth,2,0,2016-10-29,2681,2016,127693,0.03951197490096092,0,1,0,0,0.03951197490096092,0.03951197490096092,1714,Jordan Rhodes
-0,0,0,1,Sub,Middlesbrough,Watford,0,1,2016-10-16,538,2016,126868,0,0,0,0,0,0,0,1714,Jordan Rhodes
-0,3,0.42448630928993225,71,FW,West Ham,Middlesbrough,1,1,2016-10-01,526,2016,127509,0.0493432991206646,0,1,0,0.42448630928993225,0.47382959723472595,0,1714,Jordan Rhodes
-0,1,0.05656328424811363,30,Sub,Middlesbrough,Tottenham,1,2,2016-09-24,512,2016,126674,0,0,0,0,0.05656328424811363,0.05656328424811363,0,1714,Jordan Rhodes

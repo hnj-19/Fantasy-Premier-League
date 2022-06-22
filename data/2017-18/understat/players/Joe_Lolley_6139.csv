@@ -1,7 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-1,1,0.038207605481147766,67,AMC,Huddersfield,West Ham,1,4,2018-01-13,7342,2017,207688,0,0,0,1,0.038207605481147766,0.038207605481147766,0,6139,Joe Lolley
-0,0,0,61,AML,Leicester,Huddersfield,3,0,2018-01-01,7334,2017,206458,0,0,0,0,0,0,0,6139,Joe Lolley
-0,0,0,34,Sub,Huddersfield,Burnley,0,0,2017-12-30,7322,2017,206090,0,0,0,0,0,0,0,6139,Joe Lolley
-0,2,0.059775467962026596,25,Sub,Huddersfield,Stoke,1,1,2017-12-26,7312,2017,205648,0,0,0,0,0.059775467962026596,0.09832387417554855,0.06479352712631226,6139,Joe Lolley
-0,0,0,25,Sub,Southampton,Huddersfield,1,1,2017-12-23,7307,2017,203167,0.10656163841485977,0,1,0,0,0.16851872205734253,0.06195708364248276,6139,Joe Lolley
-0,0,0,1,Sub,Huddersfield,Brighton,2,0,2017-12-09,7274,2017,198831,0,0,0,0,0,0,0,6139,Joe Lolley

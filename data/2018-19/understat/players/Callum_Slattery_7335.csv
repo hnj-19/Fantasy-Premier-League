@@ -1,4 +1,0 @@
-goals,shots,xG,time,position,h_team,a_team,h_goals,a_goals,date,id,season,roster_id,xA,assists,key_passes,npg,npxG,xGChain,xGBuildup,Understat_ID,player_name
-0,1,0.10085175186395645,90,MC,Burnley,Southampton,1,1,2019-02-02,9445,2018,304207,0,0,0,0,0.10085175186395645,0.26468604803085327,0.16383428871631622,7335,Callum Slattery
-0,0,0,5,Sub,Southampton,Crystal Palace,1,1,2019-01-30,9433,2018,304064,0,0,0,0,0,0,0,7335,Callum Slattery
-0,0,0,12,Sub,Leicester,Southampton,1,2,2019-01-12,9410,2018,303479,0,0,0,0,0,0,0,7335,Callum Slattery
