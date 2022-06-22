@@ -36,7 +36,7 @@ def filter_players_exist_latest(df, col='position'):
     """
 
     df[col] = df.groupby('name')[col].apply(lambda x: x.ffill().bfill())
-    df = df[df[col].notnull()]
+    # df = df[df[col].notnull()]
     return df
 
 def get_opponent_team_name(df):
@@ -69,6 +69,43 @@ def export_cleaned_data(df):
     path = os.getcwd()
     filename = 'cleaned_merged_seasons.csv'
     filepath = join(dirname(dirname("__file__")), path, 'data', filename)
-    df.to_csv(filepath, encoding = 'utf-8')
+    df.to_csv(filepath, encoding = 'utf-8', index = False)
     return df 
 
+def merge_position_data():
+    """
+    Get position/team data for older data
+    """
+
+    season_latin = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22']
+    encoding_latin = ['latin', 'latin', 'latin', 'utf-8', 'utf-8', 'utf-8'] 
+    for season,encoding in zip(season_latin, encoding_latin):
+        df_gw = pd.read_csv(f'data/{season}/gws/merged_gw.csv', encoding = encoding)
+        df_players = pd.read_csv(f'data/{season}/players_raw.csv')
+        df_teams = pd.read_csv('data/master_team_list.csv')
+        df_elements = pd.read_csv('data/element_types.csv')
+
+        df_players = df_players[['element_type','id','team', 'web_name']]
+        df_teams = df_teams[df_teams['season']==season]
+
+
+        df_tmp = df_players.merge(df_teams, how = 'left', on = 'team')
+        df_tmp = df_tmp.merge(df_elements, how = 'left', on = 'element_type')
+        if season in ['2016-17', '2017-18', '2018-19', '2019-20']:
+            df_tmp = df_tmp[['element_type','id','team_name','position', 'web_name']]
+            df_tmp = df_tmp.rename(columns={'id': 'element', 'team_name': 'team'})
+            df_tmp = df_tmp[['element','team','position', 'web_name']]
+        else:
+            df_tmp = df_tmp[['id','web_name']]
+            df_tmp = df_tmp.rename(columns={'id': 'element'})
+            df_tmp = df_tmp[['element','web_name']]
+        
+        df_gw = df_gw.merge(df_tmp, how = 'left', on = 'element')
+        
+        df_gw.to_csv(f'data/{season}/gws/merged_gw.csv', encoding = encoding, index = False)    
+
+def main():
+    merge_position_data()
+
+if __name__ == '__main__':
+    main()

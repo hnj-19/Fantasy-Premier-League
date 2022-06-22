@@ -1,6 +1,8 @@
+from operator import index
 import os
 import sys
 import csv
+import pandas as pd
 
 def get_teams(directory):
     teams = {}
@@ -41,26 +43,30 @@ def get_expected_points(gw, directory):
         xPoints[int(row['id'])] = row['xP']
     return xPoints
 
-def merge_gw(gw, gw_directory):
-    merged_gw_filename = "merged_gw.csv"
+def merge_gw(gw, gw_directory, encoding = 'utf-8'):
+    # merged_gw_filename = "merged_gw.csv"
     gw_filename = "gw" + str(gw) + ".csv"
     gw_path = os.path.join(gw_directory, gw_filename)
-    fin = open(gw_path, 'rU', encoding="utf-8")
-    reader = csv.DictReader(fin)
-    fieldnames = reader.fieldnames
-    fieldnames += ["GW"]
-    rows = []
-    for row in reader:
-        row["GW"] = gw
-        rows += [row]
-    out_path = os.path.join(gw_directory, merged_gw_filename)
-    fout = open(out_path,'a', encoding="utf-8")
-    writer = csv.DictWriter(fout, fieldnames=fieldnames, lineterminator='\n')
-    print(gw)
-    if gw == 1:
-        writer.writeheader()
-    for row in rows:
-        writer.writerow(row)
+    # fin = open(gw_path, 'rU', encoding=encoding)
+    # reader = csv.DictReader(fin)
+    # fieldnames = reader.fieldnames
+    # fieldnames += ["GW"]
+    # rows = []
+    # for row in reader:
+    #     row["GW"] = gw
+    #     rows += [row]
+    # out_path = os.path.join(gw_directory, merged_gw_filename)
+    # fout = open(out_path,'a', encoding=encoding) #change back to a
+    # writer = csv.DictWriter(fout, fieldnames=fieldnames, lineterminator='\n')
+    # print(gw)
+    # if gw == 1:
+    #     writer.writeheader()
+    # for row in rows:
+    #     writer.writerow(row)
+    df = pd.read_csv(gw_path, encoding=encoding)
+    df['GW'] = gw
+    return(df)
+
 
 def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2021-22"):
     rows = []
@@ -105,14 +111,23 @@ def collect_all_gws(directory_name, output_dir):
     for i in range(1,5):
         collect_gw(i, directory_name, output_dir)
 
-def merge_all_gws(num_gws, gw_directory):
+def merge_all_gws(num_gws, gw_directory, encoding = 'utf-8'):
+    merged_gw_filename = "merged_gw.csv"
+    out_path = os.path.join(gw_directory, merged_gw_filename)
+    df = pd.DataFrame()
+    
     for i in range(1, num_gws):
-        merge_gw(i, gw_directory)
+        df_tmp = merge_gw(i, gw_directory, encoding)
+        df = pd.concat([df, df_tmp])
+    
+    df.to_csv(out_path, encoding = encoding, index = False)
 
 def main():
     #collect_all_gws(sys.argv[1], sys.argv[2])
-    merge_all_gws(int(sys.argv[1]), sys.argv[2])
+    # merge_all_gws(int(sys.argv[1]), sys.argv[2])
     # collect_gw(37, sys.argv[1], sys.argv[2])
+    merge_all_gws(39, 'data/2021-22/gws')
+
 
 if __name__ == '__main__':
     main()
