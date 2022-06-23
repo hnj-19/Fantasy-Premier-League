@@ -81,6 +81,30 @@ def get_matches_data(season=2021):
     matchesData = pd.json_normalize(datesData, sep = '_')
     return matchesData
 
+def get_xCS(match_id):
+    scripts = get_data(f"https://understat.com/match/{match_id}")
+    shotsData = {}
+    for script in scripts:
+        for c in script.contents:
+            split_data = c.split('=')
+            data = split_data[0].strip()
+            if data == 'var shotsData':
+                content = re.findall(r'JSON\.parse\(\'(.*)\'\)',split_data[1])
+                decoded_content = codecs.escape_decode(content[0], "hex")[0].decode('utf-8')
+                shotsData = json.loads(decoded_content)
+    shotsData_h = pd.json_normalize(shotsData.get('h'), sep = '_')
+    shotsData_a = pd.json_normalize(shotsData.get('a'), sep = '_')
+    shotsData = pd.concat([shotsData_h, shotsData_a], ignore_index = True)
+    shotsData['xCS'] = 1-shotsData.xG.astype('float64')
+    
+    xCS_h = shotsData[shotsData['h_a'] == 'h'].xCS.product()
+    xCS_a = shotsData[shotsData['h_a'] == 'a'].xCS.product()
+    
+    xCS = pd.DataFrame({'match_id': match_id,
+                        'xCS_h': xCS_h,
+                        'xCS_a': xCS_a}, index=[0])
+    
+    return xCS
 
 def parse_epl_data(outfile_base, season):
     season_short = season[0:4]
@@ -105,6 +129,15 @@ def parse_epl_data(outfile_base, season):
         indi_player_frame.to_csv(os.path.join(outfile_base, 'players/', player_name + '_' + d['id'] + '.csv'), index=False)
     understat_players_merge(season)
     datesData.to_csv(os.path.join(outfile_base, 'understat_fixtures.csv'), index=False)
+    
+    match_ids = get_matches_data(season_short)
+    match_ids = match_ids[match_ids['isResult']==True]
+    match_ids = match_ids[['id']]
+    xCS = pd.DataFrame()
+    for match_id in get_matches_data()['id']:
+        df_tmp = get_xCS(match_id)
+        xCS = pd.concat([xCS, df_tmp], ignore_index = True)
+    xCS.to_csv(os.path.join(outfile_base, 'understat_xCS.csv'), index=False)
 
 class PlayerID:
     def __init__(self, us_id, fpl_id, us_name, fpl_name):
@@ -158,6 +191,9 @@ def understat_players_merge(season='2021-22'):
     outfile = os.path.join('data', season, 'understat')
     df.to_csv(outfile + '/understat_players_merged.csv', index = False)
     return df
+
+def understat_xCS_merge(season='2021-22'):
+    directory = os.path.join('data', season, 'understat')
 
 def main():
     #parse_epl_data('data/2021-22/understat/')

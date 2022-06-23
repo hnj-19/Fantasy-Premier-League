@@ -1,665 +1,628 @@
 Understat_ID,FPL_ID,Understat_Name,FPL_Name,season
-647,403,Harry Kane,Harry Kane,2016-17
-594,143,Romelu Lukaku,Romelu Lukaku,2016-17
-498,12,Alexis Sánchez,Alexis Sánchez,2016-17
-619,239,Sergio Agüero,Sergio Agüero,2016-17
-802,97,Diego Costa,Diego Da Silva Costa,2016-17
-645,388,Dele Alli,Bamidele Alli,2016-17
-1741,272,Zlatan Ibrahimovic,Zlatan Ibrahimovic,2016-17
-465,48,Joshua King,Joshua King,2016-17
-701,82,Eden Hazard,Eden Hazard,2016-17
-606,213,Christian Benteke,Christian Benteke,2016-17
-735,355,Jermain Defoe,Jermain Defoe,2016-17
-1728,500,Fernando Llorente,Fernando Llorente,2016-17
-453,390,Son Heung-Min,Heung-Min Son,2016-17
-488,203,Philippe Coutinho,Philippe Coutinho,2016-17
-755,184,Jamie Vardy,Jamie Vardy,2016-17
-838,212,Sadio Mané,Sadio Mané,2016-17
-502,25,Olivier Giroud,Olivier Giroud,2016-17
-482,209,Roberto Firmino,Roberto Firmino,2016-17
-503,13,Theo Walcott,Theo Walcott,2016-17
-574,425,Troy Deeney,Troy Deeney,2016-17
-1661,67,Sam Vokes,Sam Vokes,2016-17
-531,464,Michail Antonio,Michail Antonio,2016-17
-687,109,Pedro,Pedro Rodríguez Ledesma,2016-17
-714,368,Gylfi Sigurdsson,Gylfi Sigurdsson,2016-17
-1660,68,Andre Gray,Andre Gray,2016-17
-1715,478,Álvaro Negredo,Álvaro Negredo,2016-17
-486,205,Adam Lallana,Adam Lallana,2016-17
-499,14,Mesut Özil,Mesut Özil,2016-17
-535,462,Manuel Lanzini,Manuel Lanzini,2016-17
-646,394,Christian Eriksen,Christian Eriksen,2016-17
-700,106,Willian,Willian Borges Da Silva,2016-17
-813,449,Salomón Rondón,Salomón Rondón,2016-17
-463,42,Junior Stanislas,Junior Stanislas,2016-17
-484,217,Divock Origi,Divock Origi,2016-17
-489,208,James Milner,James Milner,2016-17
-522,111,Wilfried Zaha,Wilfried Zaha,2016-17
-537,468,Andy Carroll,Andy Carroll,2016-17
-572,416,Etienne Capoue,Etienne Capoue,2016-17
-618,228,Raheem Sterling,Raheem Sterling,2016-17
-790,304,Nathan Redmond,Nathan Redmond,2016-17
-872,336,Peter Crouch,Peter Crouch,2016-17
-1682,567,Islam Slimani,Islam Slimani,2016-17
-1691,155,Robert Snodgrass,Robert Snodgrass,2016-17
-5543,259,Gabriel Jesus,Gabriel Fernando de Jesus,2016-17
-447,235,Kevin De Bruyne,Kevin De Bruyne,2016-17
-468,49,Callum Wilson,Callum Wilson,2016-17
-480,202,Joe Allen,Joe Allen,2016-17
-554,256,Juan Mata,Juan Mata,2016-17
-699,78,Gary Cahill,Gary Cahill,2016-17
-711,375,Leroy Fer,Leroy Fer,2016-17
-713,374,André Ayew,André Ayew,2016-17
-750,176,Riyad Mahrez,Riyad Mahrez,2016-17
-771,485,Georginio Wijnaldum,Georginio Wijnaldum,2016-17
-806,436,Gareth McAuley,Gareth McAuley,2016-17
-826,52,Benik Afobe,Benik Afobe,2016-17
-848,314,Charlie Austin,Charlie Austin,2016-17
-865,331,Marko Arnautovic,Marko Arnautovic,2016-17
-1621,561,Marcos Alonso,Marcos Alonso,2016-17
-4422,70,Ashley Barnes,Ashley Barnes,2016-17
-337,489,Leroy Sané,Leroy Sané,2016-17
-556,271,Marcus Rashford,Marcus Rashford,2016-17
-592,134,Ross Barkley,Ross Barkley,2016-17
-604,204,Emre Can,Emre Can,2016-17
-629,269,Wayne Rooney,Wayne Rooney,2016-17
-633,114,James McArthur,James McArthur,2016-17
-648,392,Nacer Chadli,Nacer Chadli,2016-17
-686,83,Cesc Fàbregas,Cesc Fàbregas,2016-17
-730,344,Patrick van Aanholt,Patrick van Aanholt,2016-17
-844,311,Jay Rodriguez,Jay Rodriguez,2016-17
-878,249,Yaya Touré,Gnegneri Yaya Touré,2016-17
-990,441,James Morrison,James Morrison,2016-17
-1678,96,Michy Batshuayi,Michy Batshuayi,2016-17
-1740,503,Paul Pogba,Paul Pogba,2016-17
-317,268,Henrikh Mkhitaryan,Henrikh Mkhitaryan,2016-17
-459,33,Charlie Daniels,Charlie Daniels,2016-17
-516,118,Yohan Cabaye,Yohan Cabaye,2016-17
-553,267,Anthony Martial,Anthony Martial,2016-17
-585,126,Seamus Coleman,Seamus Coleman,2016-17
-595,133,Kevin Mirallas,Kevin Mirallas,2016-17
-599,145,Oumar Niasse,Oumar Niasse,2016-17
-617,230,David Silva,David Silva,2016-17
-620,241,Kelechi Iheanacho,Kelechi Iheanacho,2016-17
-804,433,Craig Dawson,Craig Dawson,2016-17
-836,400,Victor Wanyama,Victor Wanyama,2016-17
-843,306,James Ward-Prowse,James Ward-Prowse,2016-17
-863,330,Jonathan Walters,Jonathan Walters,2016-17
-888,333,Xherdan Shaqiri,Xherdan Shaqiri,2016-17
-1383,643,Manolo Gabbiadini,Manolo Gabbiadini,2016-17
-1698,163,Abel Hernández,Abel Hernández,2016-17
-1709,293,Cristhian Stuani,Cristhian Stuani,2016-17
-1710,290,Marten de Roon,Marten de Roon,2016-17
-1727,558,Alfie Mawson,Alfie Mawson,2016-17
-1732,237,Nolito,Manuel Agudo Durán,2016-17
-1737,446,Matt Phillips,Matt Phillips,2016-17
-1763,552,Stefano Okaka,Stefano Okaka,2016-17
-314,236,Ilkay Gündogan,Ilkay Gündogan,2016-17
-483,214,Daniel Sturridge,Daniel Sturridge,2016-17
-500,21,Alex Iwobi,Alex Iwobi,2016-17
-512,104,Scott Dann,Scott Dann,2016-17
-530,103,James Tomkins,James Tomkins,2016-17
-533,458,Mark Noble,Mark Noble,2016-17
-539,469,Enner Valencia,Enner Valencia,2016-17
-541,92,Victor Moses,Victor Moses,2016-17
-579,36,Nathan Aké,Nathan Aké,2016-17
-587,127,Phil Jagielka,Phil Jagielka,2016-17
-612,222,Vincent Kompany,Vincent Kompany,2016-17
-719,369,Wayne Routledge,Wayne Routledge,2016-17
-754,186,Shinji Okazaki,Shinji Okazaki,2016-17
-775,120,Andros Townsend,Andros Townsend,2016-17
-818,575,Victor Anichebe,Victor Anichebe,2016-17
-839,313,Shane Long,Shane Long,2016-17
-840,308,Dusan Tadic,Dusan Tadic,2016-17
-871,344,Bojan,Bojan Krkic Perez,2016-17
-904,438,Chris Brunt,Chris Brunt,2016-17
-1674,466,Sofiane Feghouli,Sofiane Feghouli,2016-17
-1683,536,Ryan Fraser,Ryan Fraser,2016-17
-1690,156,Sam Clucas,Sam Clucas,2016-17
-1738,571,Hal Robson-Kanu,Hal Robson-Kanu,2016-17
-1744,150,Michael Dawson,Michael Dawson,2016-17
-204,24,Granit Xhaka,Granit Xhaka,2016-17
-458,32,Steve Cook,Steve Cook,2016-17
-462,43,Dan Gosling,Dan Gosling,2016-17
-466,38,Marc Pugh,Marc Pugh,2016-17
-494,3,Laurent Koscielny,Laurent Koscielny,2016-17
-501,26,Danny Welbeck,Danny Welbeck,2016-17
-508,11,Calum Chambers,Calum Chambers,2016-17
-519,122,Connor Wickham,Connor Wickham,2016-17
-529,453,Winston Reid,Winston Reid,2016-17
-536,461,Dimitri Payet,Dimitri Payet,2016-17
-568,411,José Holebas,José Holebas,2016-17
-588,125,Leighton Baines,Leighton Baines,2016-17
-590,137,Gareth Barry,Gareth Barry,2016-17
-602,191,Dejan Lovren,Dejan Lovren,2016-17
-614,250,Fernandinho,Fernando Luiz Rosa,2016-17
-622,240,Wilfried Bony,Wilfried Bony,2016-17
-641,383,Danny Rose,Danny Rose,2016-17
-643,390,Eric Dier,Eric Dier,2016-17
-655,452,James Collins,James Collins,2016-17
-736,341,Younes Kaboul,Younes Kaboul,2016-17
-737,354,Fabio Borini,Fabio Borini,2016-17
-747,173,Robert Huth,Robert Huth,2016-17
-749,168,Christian Fuchs,Christian Fuchs,2016-17
-753,177,Marc Albrighton,Marc Albrighton,2016-17
-764,540,Daryl Janmaat,Daryl Janmaat,2016-17
-798,633,Martin Olsson,Martin Olsson,2016-17
-807,431,Jonny Evans,Jonny Evans,2016-17
-809,439,Darren Fletcher,Darren Fletcher,2016-17
-835,296,Ryan Bertrand,Ryan Bertrand,2016-17
-952,491,Gastón Ramírez,Gastón Ramírez,2016-17
-965,15,Santiago Cazorla,Santiago Cazorla,2016-17
-966,18,Alex Oxlade-Chamberlain,Alex Oxlade-Chamberlain,2016-17
-1042,512,Tom Davies,Tom Davies,2016-17
-1126,637,M&#039;Baye Niang,M'Baye Niang,2016-17
-1522,638,Andrea Ranocchia,Andrea Ranocchia,2016-17
-1653,58,Michael Keane,Michael Keane,2016-17
-1656,62,George Boyd,George Boyd,2016-17
-1681,187,Ahmed Musa,Ahmed Musa,2016-17
-1687,153,Harry Maguire,Harry Maguire,2016-17
-1694,164,Adama Diomande,Adama Diomande,2016-17
-1699,555,Shkodran Mustafi,Shkodran Mustafi,2016-17
-1723,539,Roberto Pereyra,Roberto Pereyra,2016-17
-1725,414,Christian Kabasele,Christian Kabasele,2016-17
-1730,405,Vincent Janssen,Vincent Janssen,2016-17
-1746,560,Jeff Hendrick,Jeff Hendrick,2016-17
-4406,206,Lazar Markovic,Lazar Markovic,2016-17
-5545,628,Wilfred Ndidi,Wilfred Ndidi,2016-17
-5549,646,Luka Milivojevic,Luka Milivojevic,2016-17
-332,199,Joel Matip,Joel Matip,2016-17
-492,6,Héctor Bellerín,Héctor Bellerín,2016-17
-504,16,Aaron Ramsey,Aaron Ramsey,2016-17
-517,113,Joe Ledley,Joe Ledley,2016-17
-518,109,Yannick Bolasie,Yannick Bolasie,2016-17
-532,459,Cheikhou Kouyaté,Cheikhou Kouyaté,2016-17
-542,460,Pedro Obiang,Pedro Obiang,2016-17
-548,254,Daley Blind,Daley Blind,2016-17
-550,248,Marcos Rojo,Marcos Rojo,2016-17
-551,264,Morgan Schneiderlin,Morgan Schneiderlin,2016-17
-552,262,Ander Herrera,Ander Herrera,2016-17
-558,266,Jesse Lingard,Jesse Lingard,2016-17
-566,409,Sebastian Prödl,Sebastian Prödl,2016-17
-567,413,Miguel Britos,Miguel Britos,2016-17
-573,426,Odion Ighalo,Odion Ighalo,2016-17
-589,136,James McCarthy,James McCarthy,2016-17
-605,201,Jordan Henderson,Jordan Henderson,2016-17
-610,221,Pablo Zabaleta,Pablo Zabaleta,2016-17
-611,226,Nicolás Otamendi,Nicolás Otamendi,2016-17
-613,223,Gaël Clichy,Gaël Clichy,2016-17
-621,220,Aleksandar Kolarov,Aleksandar Kolarov,2016-17
-627,250,Antonio Valencia,Antonio Valencia,2016-17
-628,244,Chris Smalling,Chris Smalling,2016-17
-630,257,Marouane Fellaini,Marouane Fellaini,2016-17
-634,121,Fraizer Campbell,Fraizer Campbell,2016-17
-639,382,Toby Alderweireld,Toby Alderweireld,2016-17
-642,391,Mousa Dembélé,Mousa Dembélé,2016-17
-644,393,Erik Lamela,Erik Lamela,2016-17
-649,396,Ryan Mason,Ryan Mason,2016-17
-653,397,Tom Carroll,Tom Carroll,2016-17
-656,470,Diafra Sakho,Diafra Sakho,2016-17
-660,386,Ben Davies,Ben Davies,2016-17
-668,488,Idrissa Gueye,Idrissa Gueye,2016-17
-671,629,Rudy Gestede,Rudy Gestede,2016-17
-672,642,Jordan Ayew,Jordan Ayew,2016-17
-681,77,César Azpilicueta,César Azpilicueta,2016-17
-697,87,Nemanja Matic,Nemanja Matic,2016-17
-707,361,Angel Rangel,Angel Rangel,2016-17
-709,359,Ashley Williams,Ashley Williams,2016-17
-718,358,Kyle Naughton,Kyle Naughton,2016-17
-728,346,Lamine Koné,Lamine Koné,2016-17
-734,352,Wahbi Khazri,Wahbi Khazri,2016-17
-742,343,Billy Jones,Billy Jones,2016-17
-748,167,Wes Morgan,Wes Morgan,2016-17
-751,111,N&#039;Golo Kanté,N'Golo Kanté,2016-17
-752,179,Daniel Drinkwater,Daniel Drinkwater,2016-17
-756,185,Leonardo Ulloa,Leonardo Ulloa,2016-17
-759,182,Daniel Amartey,Daniel Amartey,2016-17
-762,181,Demarai Gray,Demarai Gray,2016-17
-782,196,Ben Chilwell,Benjamin Chilwell,2016-17
-784,178,Andy King,Andy King,2016-17
-789,640,Robbie Brady,Robbie Brady,2016-17
-814,444,James McClean,James McClean,2016-17
-822,553,Patrick Bamford,Patrick Bamford,2016-17
-825,34,Adam Smith,Adam Smith,2016-17
-833,303,Virgil van Dijk,Virgil van Dijk,2016-17
-837,309,Jordy Clasie,Jordy Clasie,2016-17
-842,320,Oriol Romeu,Oriol Romeu Vidal,2016-17
-845,298,Maya Yoshida,Maya Yoshida,2016-17
-860,322,Marc Muniesa,Marc Muniesa,2016-17
-868,337,Mame Biram Diouf,Mame Biram Diouf,2016-17
-873,328,Charlie Adam,Charlie Adam,2016-17
-876,227,Fabian Delph,Fabian Delph,2016-17
-881,37,Harry Arter,Harry Arter,2016-17
-886,318,Ryan Shawcross,Ryan Shawcross,2016-17
-917,75,John Terry,John Terry,2016-17
-920,131,Matthew Pennington,Matthew Pennington,2016-17
-971,513,Harry Winks,Harry Winks,2016-17
-1654,56,Ben Mee,Ben Mee,2016-17
-1655,57,Stephen Ward,Stephen Ward,2016-17
-1657,525,Steven Defour,Steven Defour,2016-17
-1658,64,Dean Marney,Dean Marney,2016-17
-1659,63,Scott Arfield,Scott Arfield,2016-17
-1663,473,Johann Berg Gudmundsson,Johann Berg Gudmundsson,2016-17
-1672,526,Jonathan Calleri,Jonathan Calleri,2016-17
-1676,101,David Luiz,David Luiz Moreira Marinho,2016-17
-1688,152,Andrew Robertson,Andrew Robertson,2016-17
-1689,157,Jake Livermore,Jake Livermore,2016-17
-1692,162,Shaun Maloney,Shaun Maloney,2016-17
-1693,161,David Meyler,David Meyler,2016-17
-1695,160,Tom Huddlestone,Tom Huddlestone,2016-17
-1700,549,Lucas Pérez,Lucas Pérez,2016-17
-1701,507,Borja Bastón,Borja Bastón,2016-17
-1702,366,Mike van der Hoorn,Mike van der Hoorn,2016-17
-1707,278,Ben Gibson,Ben Gibson,2016-17
-1712,282,Stewart Downing,Stewart Downing,2016-17
-1718,275,Daniel Ayala,Daniel Ayala,2016-17
-1719,538,Javier Manquillo,Javier Manquillo,2016-17
-1720,559,Didier Ndong,Didier Ndong,2016-17
-1722,479,Juan Zuñiga,Juan Zuñiga,2016-17
-1724,424,Isaac Success,Isaac Success,2016-17
-1726,482,Abdoulaye Doucouré,Abdoulaye Doucouré,2016-17
-1734,551,Sofiane Boufal,Sofiane Boufal,2016-17
-1743,562,Bruno Martins Indi,Bruno Martins Indi,2016-17
-2144,644,Alfred N&#039;Diaye,Alfred N'Diaye,2016-17
-4430,626,Joey Barton,Joey Barton,2016-17
-5542,284,Grant Leadbitter,Grant Leadbitter,2016-17
-5555,595,Dominic Calvert-Lewin,Dominic Calvert-Lewin,2016-17
-5556,627,Ademola Lookman,Ademola Lookman,2016-17
-5597,674,Josh Harrop,Joshua Harrop,2016-17
-37,189,Loris Karius,Loris Karius,2016-17
-91,166,Ron-Robert Zieler,Ron-Robert Zieler,2016-17
-202,465,Håvard Nordtveit,Håvard Nordtveit,2016-17
-232,347,Jan Kirchhoff,Jan Kirchhoff,2016-17
-265,474,Ragnar Klavan,Ragnar Klavan,2016-17
-323,261,Adnan Januzaj,Adnan Januzaj,2016-17
-343,312,Pierre-Emile Højbjerg,Pierre-Emile Højbjerg,2016-17
-455,29,Artur Boruc,Artur Boruc,2016-17
-456,31,Simon Francis,Simon Francis,2016-17
-460,39,Andrew Surman,Andrew Surman,2016-17
-464,44,Max Gradel,Max Gradel,2016-17
-467,51,Lewis Grabban,Lewis Grabban,2016-17
-469,30,Adam Federici,Adam Federici,2016-17
-475,200,Lucas Leiva,Leiva Lucas,2016-17
-477,197,Brad Smith,Bradley Smith,2016-17
-479,198,Kevin Stewart,Kevin Stewart,2016-17
-481,46,Jordon Ibe,Jordon Ibe,2016-17
-485,190,Mamadou Sakho,Mamadou Sakho,2016-17
-487,188,Simon Mignolet,Simon Mignolet,2016-17
-490,194,Jon Flanagan,Jon Flanagan,2016-17
-491,2,Petr Cech,Petr Cech,2016-17
-493,5,Gabriel,Gabriel Armando de Abreu,2016-17
-495,10,Nacho Monreal,Nacho Monreal,2016-17
-496,22,Mohamed Elneny,Mohamed Elneny,2016-17
-497,20,Francis Coquelin,Francis Coquelin,2016-17
 505,1,David Ospina,David Ospina,2016-17
-507,4,Per Mertesacker,Per Mertesacker,2016-17
-509,100,Wayne Hennessey,Wayne Hennessey,2016-17
-510,105,Joel Ward,Joel Ward,2016-17
-511,107,Damien Delaney,Damien Delaney,2016-17
-513,108,Pape Souaré,Pape Souaré,2016-17
-514,110,Jason Puncheon,Jason Puncheon,2016-17
-515,112,Mile Jedinak,Mile Jedinak,2016-17
-520,119,Bakary Sako,Bakary Sako,2016-17
-524,556,Adrian Mariappa,Adrian Mariappa,2016-17
-525,106,Martin Kelly,Martin Kelly,2016-17
-526,128,Lee Chung-yong,Chung-yong Lee,2016-17
-527,438,Adrián,Adrián San Miguel del Castillo,2016-17
-528,456,Angelo Ogbonna,Angelo Ogbonna,2016-17
-534,454,Aaron Cresswell,Aaron Cresswell,2016-17
-540,451,Darren Randolph,Darren Randolph,2016-17
-545,7,Kieran Gibbs,Kieran Gibbs,2016-17
-546,242,David de Gea,David de Gea,2016-17
-549,253,Timothy Fosu-Mensah,Timothy Fosu-Mensah,2016-17
-555,258,Memphis Depay,Memphis Depay,2016-17
-557,251,Matteo Darmian,Matteo Darmian,2016-17
-559,249,Paddy McNair,Patrick McNair,2016-17
-560,243,Sergio Romero,Sergio Romero,2016-17
-564,407,Heurelho Gomes,Heurelho Gomes,2016-17
-565,422,Nyom,Allan-Roméo Nyom,2016-17
-570,420,Valon Behrami,Valon Behrami,2016-17
-571,418,Ben Watson,Ben Watson,2016-17
-575,422,Nordin Amrabat,Nordin Amrabat,2016-17
-577,419,Ikechi Anya,Ikechi Anya,2016-17
-580,406,Costel Pantilimon,Costel Pantilimon,2016-17
-581,408,Craig Cathcart,Craig Cathcart,2016-17
-583,415,Adlène Guédioura,Adlène Guédioura,2016-17
-584,123,Joel Robles,Joel Robles,2016-17
-586,128,John Stones,John Stones,2016-17
-591,141,Gerard Deulofeu,Gerard Deulofeu,2016-17
-593,142,Aaron Lennon,Aaron Lennon,2016-17
-596,135,Tom Cleverley,Tom Cleverley,2016-17
-597,132,Ramiro Funes Mori,Ramiro Funes Mori,2016-17
-598,140,Bryan Oviedo,Bryan Oviedo,2016-17
-601,144,Arouna Koné,Arouna Koné,2016-17
-603,193,Nathaniel Clyne,Nathaniel Clyne,2016-17
-608,192,Alberto Moreno,Alberto Moreno,2016-17
-615,234,Fernando,Fernando Francisco Reges,2016-17
-616,232,Jesús Navas,Jesús Navas,2016-17
-624,219,Willy Caballero,Willy Caballero,2016-17
-625,224,Bacary Sagna,Bacary Sagna,2016-17
-631,260,Ashley Young,Ashley Young,2016-17
-632,115,Jordon Mutch,Jordon Mutch,2016-17
-637,380,Hugo Lloris,Hugo Lloris,2016-17
-638,384,Kyle Walker,Kyle Walker,2016-17
-640,385,Jan Vertonghen,Jan Vertonghen,2016-17
-650,388,Kevin Wimmer,Kevin Wimmer,2016-17
-651,381,Michel Vorm,Michel Vorm,2016-17
-652,387,Kieran Trippier,Kieran Trippier,2016-17
-654,259,Michael Carrick,Michael Carrick,2016-17
-661,399,Josh Onomah,Joshua Onomah,2016-17
-662,490,Brad Guzan,Bradley Guzan,2016-17
-664,635,Joleon Lescott,Joleon Lescott,2016-17
-669,641,Ashley Westwood,Ashley Westwood,2016-17
-680,73,Thibaut Courtois,Thibaut Courtois,2016-17
-682,76,Branislav Ivanovic,Branislav Ivanovic,2016-17
-688,88,Ruben Loftus-Cheek,Ruben Loftus-Cheek,2016-17
-689,110,Kenedy,Robert Kenedy Nunes do Nascimento,2016-17
-690,98,Loïc Remy,Loïc Remy,2016-17
-692,84,Oscar,Oscar dos Santos Emboaba Junior,2016-17
-694,74,Asmir Begovic,Asmir Begovic,2016-17
-706,356,Lukasz Fabianski,Lukasz Fabianski,2016-17
-708,363,Federico Fernández,Federico Fernández,2016-17
-710,360,Neil Taylor,Neil Taylor,2016-17
-712,367,Jack Cork,Jack Cork,2016-17
-715,373,Jefferson Montero,Jefferson Montero,2016-17
-720,379,Modou Barrow,Modou Barrow,2016-17
-721,362,Jordi Amat,Jordi Amat,2016-17
-722,357,Kristoffer Nordfeldt,Kristoffer Nordfeldt,2016-17
-723,363,Ki Sung-yueng,Sung-yueng Ki,2016-17
-725,487,Ola Aina,Ola Aina,2016-17
-726,339,Vito Mannone,Vito Mannone,2016-17
-729,342,John O&#039;Shea,John O'Shea,2016-17
-733,350,Jack Rodwell,Jack Rodwell,2016-17
-738,348,Lee Cattermole,Lee Cattermole,2016-17
-740,349,Sebastian Larsson,Sebastian Larsson,2016-17
-741,340,Jordan Pickford,Jordan Pickford,2016-17
-745,165,Kasper Schmeichel,Kasper Schmeichel,2016-17
-746,172,Danny Simpson,Danny Simpson,2016-17
-757,169,Jeffrey Schlupp,Jeffrey Schlupp,2016-17
-760,170,Marcin Wasilewski,Marcin Wasilewski,2016-17
-772,572,Moussa Sissoko,Moussa Sissoko,2016-17
-781,351,Jeremain Lens,Jeremain Lens,2016-17
-783,376,Nathan Dyer,Nathan Dyer,2016-17
-795,569,Dieumerci Mbokani,Dieumerci Mbokani,2016-17
-803,430,Ben Foster,Ben Foster,2016-17
-805,432,Jonas Olsson,Jonas Olsson,2016-17
-808,442,Claudio Yacob,Claudio Yacob,2016-17
-811,448,Saido Berahino,Saido Berahino,2016-17
-812,440,Craig Gardner,Craig Gardner,2016-17
-816,447,Rickie Lambert,Rickie Lambert,2016-17
-830,370,Leon Britton,Leon Britton,2016-17
-831,294,Fraser Forster,Fraser Forster,2016-17
-832,302,Cuco Martina,Cuco Martina,2016-17
-834,440,José Fonte,Jose Fonte,2016-17
-846,124,Maarten Stekelenburg,Maarten Stekelenburg,2016-17
-847,301,Cédric Soares,Cédric Soares,2016-17
-856,316,Jack Butland,Jack Butland,2016-17
-857,323,Phil Bardsley,Phil Bardsley,2016-17
-858,324,Philipp Wollscheid,Philipp Wollscheid,2016-17
-859,320,Geoff Cameron,Geoff Cameron,2016-17
-861,334,Giannelli Imbula,Giannelli Imbula,2016-17
-862,329,Glenn Whelan,Glenn Whelan,2016-17
-864,332,Ibrahim Afellay,Ibrahim Afellay,2016-17
-877,229,Samir Nasri,Samir Nasri,2016-17
-879,445,Jonathan Leko,Jonathan Leko,2016-17
-883,305,Steven Davis,Steven Davis,2016-17
-884,299,Matt Targett,Matt Targett,2016-17
-887,321,Erik Pieters,Erik Pieters,2016-17
-889,315,Shay Given,Shay Given,2016-17
-892,365,Stephen Kingsley,Stephen Kingsley,2016-17
-895,576,Mathieu Flamini,Mathieu Flamini,2016-17
-896,371,Jay Fulton,Jay Fulton,2016-17
-900,563,Adama Traoré,Adama Traoré,2016-17
-902,457,Sam Byram,Sam Byram,2016-17
-909,129,Brendan Galloway,Brendan Galloway,2016-17
-910,307,Harrison Reed,Harrison Reed,2016-17
-919,353,Duncan Watmore,Duncan Watmore,2016-17
-921,138,Darron Gibson,Darron Gibson,2016-17
-924,533,Steven Pienaar,Steven Pienaar,2016-17
-934,656,Axel Tuanzebe,Axel Tuanzebe,2016-17
-935,79,Kurt Zouma,Kurt Zouma,2016-17
-938,9,Carl Jenkinson,Carl Jenkinson,2016-17
-939,636,Mauro Zárate,Mauro Zárate,2016-17
-944,325,Glen Johnson,Glen Johnson,2016-17
-945,319,Marc Wilson,Marc Wilson,2016-17
-951,245,Phil Jones,Phil Jones,2016-17
-967,8,Mathieu Debuchy,Mathieu Debuchy,2016-17
-972,428,Jerome Sinclair,Jerome Sinclair,2016-17
-974,174,Yohan Benalouane,Yohan Benalouane,2016-17
-976,649,Baily Cargill,Baily Cargill,2016-17
-985,495,Mason Holgate,Mason Holgate,2016-17
-1006,247,Luke Shaw,Luke Shaw,2016-17
-1013,511,Sam Field,Sam Field,2016-17
-1017,483,Matej Vydra,Matej Vydra,2016-17
-1024,35,Tyrone Mings,Tyrone Mings,2016-17
-1027,520,Lynden Gooch,Lynden Gooch,2016-17
-1036,17,Jack Wilshere,Jack Wilshere,2016-17
-1039,476,Jason Denayer,Jason Denayer,2016-17
-1046,587,George Honeyman,George Honeyman,2016-17
-1047,557,Will Keane,Will Keane,2016-17
-1048,506,Donald Love,Donald Love,2016-17
-1050,600,Ryan Allsop,Ryan Allsop,2016-17
-1055,578,Aleix García,Aleix García Serrano,2016-17
-1070,494,Sullay Kaikai,Sullay Kaikai,2016-17
-1071,499,Papy Djilobodji,Papy Djilobodji,2016-17
-1084,616,Jonjoe Kenny,Jonjoe Kenny,2016-17
-1642,550,Simone Zaza,Simone Zaza,2016-17
-1651,54,Tom Heaton,Tom Heaton,2016-17
-1652,55,Matthew Lowton,Matthew Lowton,2016-17
-1662,531,Aiden O&#039;Neill,Aiden O'Neill,2016-17
-1664,69,Lukas Jutkiewicz,Lukas Jutkiewicz,2016-17
-1665,59,James Tarkowski,James Tarkowski,2016-17
-1667,472,Paul Robinson,Paul Robinson,2016-17
-1668,66,Michael Kightly,Michael Kightly,2016-17
-1669,475,Marko Grujic,Marko Grujic,2016-17
-1670,102,Steve Mandanda,Steve Mandanda,2016-17
-1671,580,Ezekiel Fryers,Ezekiel Fryers,2016-17
-1673,542,Edimilson Fernandes,Edimilson Fernandes,2016-17
-1675,535,Ashley Fletcher,Ashley Fletcher,2016-17
-1677,530,Nathaniel Chalobah,Nathaniel Chalobah,2016-17
-1680,175,Luis Hernández,Luis Hernández,2016-17
-1684,554,David Marshall,David Marshall,2016-17
-1685,158,Ahmed Elmohamady,Ahmed Elmohamady,2016-17
-1686,149,Curtis Davies,Curtis Davies,2016-17
-1696,573,Markus Henriksen,Markus Henriksen,2016-17
-1697,147,Eldin Jakupovic,Eldin Jakupovic,2016-17
-1703,467,Gökhan Töre,Gökhan Töre,2016-17
-1704,568,Álvaro Arbeloa,Álvaro Arbeloa,2016-17
-1705,274,Víctor Valdés,Víctor Valdés,2016-17
-1706,477,Antonio Barragán,Antonio Barragán,2016-17
-1708,276,George Friend,George Friend,2016-17
-1711,286,Adam Forshaw,Adam Forshaw,2016-17
-1713,289,Viktor Fischer,Viktor Fischer,2016-17
-1714,292,Jordan Rhodes,Jordan Rhodes,2016-17
-1716,280,Bernardo,Bernardo Espinosa Zúñiga,2016-17
-1717,283,Adam Clayton,Adam Clayton,2016-17
-1729,565,Georges-Kévin Nkoudou,Georges-Kévin Nkoudou,2016-17
-1731,541,Claudio Bravo,Claudio Bravo,2016-17
-1733,592,Sam McQueen,Sam McQueen,2016-17
-1735,504,Jack Stephens,Jack Stephens,2016-17
-1736,546,Oliver McBurnie,Oliver McBurnie,2016-17
-1739,255,Eric Bailly,Eric Bailly,2016-17
-1742,574,Lee Grant,Lee Grant,2016-17
-1745,519,Josh Tymon,Josh Tymon,2016-17
-1747,594,Kevin Long,Kevin Long,2016-17
-1748,53,Lys Mousset,Lys Mousset,2016-17
-1749,484,Rob Holding,Rob Holding,2016-17
-1750,593,Ainsley Maitland-Niles,Ainsley Maitland-Niles,2016-17
-1752,527,Fabio,Fabio Pereira da Silva,2016-17
-1753,291,David Nugent,David Nugent,2016-17
-1754,521,Joel Asoro,Joel Asoro,2016-17
-1757,279,Nsue,Emilio Nsue Lopez,2016-17
-1760,505,Arthur Masuaku,Arthur Masuaku,2016-17
-1762,582,Ovie Ejaria,Oviemuno Ejaria,2016-17
-1764,486,Ramadan Sobhi,Ramadan Sobhi,2016-17
-1765,579,Jonathan Benteke,Jonathan Benteke,2016-17
-1776,516,Jarrod Bowen,Jarrod Bowen,2016-17
-1777,544,Julien Ngoy,Julien Ngoy,2016-17
-1782,281,Albert Adomah,Albert Adomah,2016-17
-1784,492,Jérémy Pied,Jérémy Pied,2016-17
-1785,183,Nampalys Mendy,Nampalys Mendy,2016-17
-1787,61,David Jones,David Jones,2016-17
-1789,47,Lewis Cook,Lewis Cook,2016-17
-1791,523,Trent Alexander-Arnold,Trent Alexander-Arnold,2016-17
-1942,652,Martín Cáceres,Martín Cáceres,2016-17
-3231,647,Kamil Grosicki,Kamil Grosicki,2016-17
+491,2,Petr Cech,Petr Cech,2016-17
+494,3,Laurent Koscielny,Laurent Koscielny,2016-17
 4401,3,Emiliano Martinez,Damian Emiliano Martinez,2016-17
-4441,602,Matthew James,Matthew James,2016-17
-5548,605,Andrew Eleftheriou,Andrew Eleftheriou,2016-17
-5550,630,Evandro,Evandro Goebel,2016-17
-5551,634,Omar Elabdellaoui,Omar Elabdellaoui,2016-17
-5553,618,Declan Rice,Declan Rice,2016-17
-5554,632,Luciano Narsingh,Luciano Narsingh,2016-17
-5557,603,Ben Woodburn,Ben Woodburn,2016-17
-5558,621,Brandon Mason,Brandon Mason,2016-17
-5559,659,Dion Pereira,Dion Pereira,2016-17
-5560,667,Scott McTominay,Scott McTominay,2016-17
-5563,651,Daniel Agyei,Daniel Agyei,2016-17
-5565,323,Josh Sims,Joshua Sims,2016-17
-5571,671,Filip Lesniak,Filip Lesniak,2016-17
-5574,669,Demetri Mitchell,Demetri Mitchell,2016-17
-5575,662,Joel Pereira,Joel Dinis Castro Pereira,2016-17
-5576,661,James Husband,James Husband,2016-17
-5586,620,Michael Folivi,Michael Folivi,2016-17
-5598,680,Angel Gomes,Angel Gomes,2016-17
-5601,678,Matt Worthington,Matthew Worthington,2016-17
+507,4,Per Mertesacker,Per Mertesacker,2016-17
+493,5,Gabriel,Gabriel Armando de Abreu,2016-17
+492,6,Héctor Bellerín,Héctor Bellerín,2016-17
+545,7,Kieran Gibbs,Kieran Gibbs,2016-17
+967,8,Mathieu Debuchy,Mathieu Debuchy,2016-17
+938,9,Carl Jenkinson,Carl Jenkinson,2016-17
+495,10,Nacho Monreal,Nacho Monreal,2016-17
+508,11,Calum Chambers,Calum Chambers,2016-17
+498,12,Alexis Sánchez,Alexis Sánchez,2016-17
+503,13,Theo Walcott,Theo Walcott,2016-17
+499,14,Mesut Özil,Mesut Özil,2016-17
+965,15,Santiago Cazorla,Santiago Cazorla,2016-17
+504,16,Aaron Ramsey,Aaron Ramsey,2016-17
+1036,17,Jack Wilshere,Jack Wilshere,2016-17
+966,18,Alex Oxlade-Chamberlain,Alex Oxlade-Chamberlain,2016-17
 -1,19,,Serge Gnabry,2016-17
+497,20,Francis Coquelin,Francis Coquelin,2016-17
+500,21,Alex Iwobi,Alex Iwobi,2016-17
+496,22,Mohamed Elneny,Mohamed Elneny,2016-17
 -1,23,,Joel Campbell,2016-17
+204,24,Granit Xhaka,Granit Xhaka,2016-17
+502,25,Olivier Giroud,Olivier Giroud,2016-17
+501,26,Danny Welbeck,Danny Welbeck,2016-17
 -1,27,,Yaya Sanogo,2016-17
 -1,28,,Takuma Asano,2016-17
+455,29,Artur Boruc,Artur Boruc,2016-17
+469,30,Adam Federici,Adam Federici,2016-17
+456,31,Simon Francis,Simon Francis,2016-17
+458,32,Steve Cook,Steve Cook,2016-17
+459,33,Charlie Daniels,Charlie Daniels,2016-17
+825,34,Adam Smith,Adam Smith,2016-17
+1024,35,Tyrone Mings,Tyrone Mings,2016-17
+579,36,Nathan Aké,Nathan Aké,2016-17
+881,37,Harry Arter,Harry Arter,2016-17
+466,38,Marc Pugh,Marc Pugh,2016-17
+460,39,Andrew Surman,Andrew Surman,2016-17
 -1,40,,Eunan O'Kane,2016-17
 -1,41,,Shaun MacDonald,2016-17
+463,42,Junior Stanislas,Junior Stanislas,2016-17
+462,43,Dan Gosling,Dan Gosling,2016-17
+464,44,Max Gradel,Max Gradel,2016-17
 6457,45,Emerson Hyndman,Emerson Hyndman,2016-17
+481,46,Jordon Ibe,Jordon Ibe,2016-17
+1789,47,Lewis Cook,Lewis Cook,2016-17
+465,48,Joshua King,Joshua King,2016-17
+468,49,Callum Wilson,Callum Wilson,2016-17
 -1,50,,Tokelo Rantie,2016-17
+467,51,Lewis Grabban,Lewis Grabban,2016-17
+826,52,Benik Afobe,Benik Afobe,2016-17
+1748,53,Lys Mousset,Lys Mousset,2016-17
+1651,54,Tom Heaton,Tom Heaton,2016-17
+1652,55,Matthew Lowton,Matthew Lowton,2016-17
+1654,56,Ben Mee,Ben Mee,2016-17
+1655,57,Stephen Ward,Stephen Ward,2016-17
+1653,58,Michael Keane,Michael Keane,2016-17
+1665,59,James Tarkowski,James Tarkowski,2016-17
 -1,60,,Tendayi Darikwa,2016-17
+1787,61,David Jones,David Jones,2016-17
+1656,62,George Boyd,George Boyd,2016-17
+1659,63,Scott Arfield,Scott Arfield,2016-17
+1658,64,Dean Marney,Dean Marney,2016-17
 -1,65,,Fredrik Ulvestad,2016-17
+1668,66,Michael Kightly,Michael Kightly,2016-17
+1661,67,Sam Vokes,Sam Vokes,2016-17
+1660,68,Andre Gray,Andre Gray,2016-17
+1664,69,Lukas Jutkiewicz,Lukas Jutkiewicz,2016-17
+4422,70,Ashley Barnes,Ashley Barnes,2016-17
 -1,71,,Rouwen Hennings,2016-17
 -1,72,,Chris Long,2016-17
+680,73,Thibaut Courtois,Thibaut Courtois,2016-17
+694,74,Asmir Begovic,Asmir Begovic,2016-17
+917,75,John Terry,John Terry,2016-17
+682,76,Branislav Ivanovic,Branislav Ivanovic,2016-17
+681,77,César Azpilicueta,César Azpilicueta,2016-17
+699,78,Gary Cahill,Gary Cahill,2016-17
+935,79,Kurt Zouma,Kurt Zouma,2016-17
 -1,80,,Abdul Rahman Baba,2016-17
 -1,81,,Matt Miazga,2016-17
+701,82,Eden Hazard,Eden Hazard,2016-17
+686,83,Cesc Fàbregas,Cesc Fàbregas,2016-17
+692,84,Oscar,Oscar dos Santos Emboaba Junior,2016-17
 -1,85,,Juan Cuadrado,2016-17
 700,86,Willian,Willian Borges Da Silva,2016-17
+697,87,Nemanja Matic,Nemanja Matic,2016-17
+688,88,Ruben Loftus-Cheek,Ruben Loftus-Cheek,2016-17
 -1,89,,John Obi Mikel,2016-17
 687,90,Pedro,Pedro Rodríguez Ledesma,2016-17
 -1,91,,Bertrand Traore,2016-17
+541,92,Victor Moses,Victor Moses,2016-17
 -1,93,,Marco Van Ginkel,2016-17
 689,94,Kenedy,Robert Kenedy Nunes do Nascimento,2016-17
 751,95,N&#039;Golo Kanté,N'Golo Kanté,2016-17
+1678,96,Michy Batshuayi,Michy Batshuayi,2016-17
+802,97,Diego Costa,Diego Da Silva Costa,2016-17
+690,98,Loïc Remy,Loïc Remy,2016-17
 523,99,Julian Speroni,Julian Speroni,2016-17
+509,100,Wayne Hennessey,Wayne Hennessey,2016-17
+1676,101,David Luiz,David Luiz Moreira Marinho,2016-17
 635,101,Alex McCarthy,Alex McCarthy,2016-17
+1670,102,Steve Mandanda,Steve Mandanda,2016-17
+530,103,James Tomkins,James Tomkins,2016-17
+512,104,Scott Dann,Scott Dann,2016-17
+510,105,Joel Ward,Joel Ward,2016-17
+700,106,Willian,Willian Borges Da Silva,2016-17
+525,106,Martin Kelly,Martin Kelly,2016-17
+511,107,Damien Delaney,Damien Delaney,2016-17
+513,108,Pape Souaré,Pape Souaré,2016-17
+687,109,Pedro,Pedro Rodríguez Ledesma,2016-17
+518,109,Yannick Bolasie,Yannick Bolasie,2016-17
+514,110,Jason Puncheon,Jason Puncheon,2016-17
+689,110,Kenedy,Robert Kenedy Nunes do Nascimento,2016-17
+522,111,Wilfried Zaha,Wilfried Zaha,2016-17
+751,111,N&#039;Golo Kanté,N'Golo Kanté,2016-17
+515,112,Mile Jedinak,Mile Jedinak,2016-17
+517,113,Joe Ledley,Joe Ledley,2016-17
+633,114,James McArthur,James McArthur,2016-17
+632,115,Jordon Mutch,Jordon Mutch,2016-17
 -1,116,,Jonathan Williams,2016-17
 526,117,Lee Chung-yong,Chung-yong Lee,2016-17
+516,118,Yohan Cabaye,Yohan Cabaye,2016-17
+520,119,Bakary Sako,Bakary Sako,2016-17
+775,120,Andros Townsend,Andros Townsend,2016-17
+634,121,Fraizer Campbell,Fraizer Campbell,2016-17
+519,122,Connor Wickham,Connor Wickham,2016-17
+584,123,Joel Robles,Joel Robles,2016-17
+846,124,Maarten Stekelenburg,Maarten Stekelenburg,2016-17
+588,125,Leighton Baines,Leighton Baines,2016-17
+585,126,Seamus Coleman,Seamus Coleman,2016-17
+587,127,Phil Jagielka,Phil Jagielka,2016-17
+526,128,Lee Chung-yong,Chung-yong Lee,2016-17
+586,128,John Stones,John Stones,2016-17
+909,129,Brendan Galloway,Brendan Galloway,2016-17
 -1,130,,Tyias Browning,2016-17
+920,131,Matthew Pennington,Matthew Pennington,2016-17
+597,132,Ramiro Funes Mori,Ramiro Funes Mori,2016-17
+595,133,Kevin Mirallas,Kevin Mirallas,2016-17
+592,134,Ross Barkley,Ross Barkley,2016-17
+596,135,Tom Cleverley,Tom Cleverley,2016-17
+589,136,James McCarthy,James McCarthy,2016-17
+590,137,Gareth Barry,Gareth Barry,2016-17
+921,138,Darron Gibson,Darron Gibson,2016-17
 908,139,Muhamed Besic,Muhamed Besic,2016-17
+598,140,Bryan Oviedo,Bryan Oviedo,2016-17
+591,141,Gerard Deulofeu,Gerard Deulofeu,2016-17
+593,142,Aaron Lennon,Aaron Lennon,2016-17
+594,143,Romelu Lukaku,Romelu Lukaku,2016-17
+601,144,Arouna Koné,Arouna Koné,2016-17
+599,145,Oumar Niasse,Oumar Niasse,2016-17
 -1,146,,Allan McGregor,2016-17
+1697,147,Eldin Jakupovic,Eldin Jakupovic,2016-17
 -1,148,,Brian Lenihan,2016-17
+1686,149,Curtis Davies,Curtis Davies,2016-17
+1744,150,Michael Dawson,Michael Dawson,2016-17
 -1,151,,Moses Odubajo,2016-17
+1688,152,Andrew Robertson,Andrew Robertson,2016-17
+1687,153,Harry Maguire,Harry Maguire,2016-17
 -1,154,,Alex Bruce,2016-17
+1691,155,Robert Snodgrass,Robert Snodgrass,2016-17
+1690,156,Sam Clucas,Sam Clucas,2016-17
+1689,157,Jake Livermore,Jake Livermore,2016-17
+1685,158,Ahmed Elmohamady,Ahmed Elmohamady,2016-17
 4471,159,Mohamed Diamé,Mohamed Diamé,2016-17
+1695,160,Tom Huddlestone,Tom Huddlestone,2016-17
+1693,161,David Meyler,David Meyler,2016-17
+1692,162,Shaun Maloney,Shaun Maloney,2016-17
+1698,163,Abel Hernández,Abel Hernández,2016-17
+1694,164,Adama Diomande,Adama Diomande,2016-17
+745,165,Kasper Schmeichel,Kasper Schmeichel,2016-17
+91,166,Ron-Robert Zieler,Ron-Robert Zieler,2016-17
+748,167,Wes Morgan,Wes Morgan,2016-17
+749,168,Christian Fuchs,Christian Fuchs,2016-17
+757,169,Jeffrey Schlupp,Jeffrey Schlupp,2016-17
+760,170,Marcin Wasilewski,Marcin Wasilewski,2016-17
 -1,171,,Ritchie de Laet,2016-17
+746,172,Danny Simpson,Danny Simpson,2016-17
+747,173,Robert Huth,Robert Huth,2016-17
+974,174,Yohan Benalouane,Yohan Benalouane,2016-17
+1680,175,Luis Hernández,Luis Hernández,2016-17
+750,176,Riyad Mahrez,Riyad Mahrez,2016-17
+753,177,Marc Albrighton,Marc Albrighton,2016-17
+784,178,Andy King,Andy King,2016-17
+752,179,Daniel Drinkwater,Daniel Drinkwater,2016-17
 -1,180,,Gökhan Inler,2016-17
+762,181,Demarai Gray,Demarai Gray,2016-17
+759,182,Daniel Amartey,Daniel Amartey,2016-17
+1785,183,Nampalys Mendy,Nampalys Mendy,2016-17
+755,184,Jamie Vardy,Jamie Vardy,2016-17
+756,185,Leonardo Ulloa,Leonardo Ulloa,2016-17
+754,186,Shinji Okazaki,Shinji Okazaki,2016-17
+1681,187,Ahmed Musa,Ahmed Musa,2016-17
+487,188,Simon Mignolet,Simon Mignolet,2016-17
+37,189,Loris Karius,Loris Karius,2016-17
+485,190,Mamadou Sakho,Mamadou Sakho,2016-17
+602,191,Dejan Lovren,Dejan Lovren,2016-17
+608,192,Alberto Moreno,Alberto Moreno,2016-17
+603,193,Nathaniel Clyne,Nathaniel Clyne,2016-17
+490,194,Jon Flanagan,Jon Flanagan,2016-17
 987,195,Joseph Gomez,Joseph Gomez,2016-17
+782,196,Ben Chilwell,Benjamin Chilwell,2016-17
 -1,196,,Connor Randall,2016-17
+477,197,Brad Smith,Bradley Smith,2016-17
+479,198,Kevin Stewart,Kevin Stewart,2016-17
+332,199,Joel Matip,Joel Matip,2016-17
+475,200,Lucas Leiva,Leiva Lucas,2016-17
+605,201,Jordan Henderson,Jordan Henderson,2016-17
+480,202,Joe Allen,Joe Allen,2016-17
+488,203,Philippe Coutinho,Philippe Coutinho,2016-17
+604,204,Emre Can,Emre Can,2016-17
+486,205,Adam Lallana,Adam Lallana,2016-17
+4406,206,Lazar Markovic,Lazar Markovic,2016-17
 -1,207,,Oluwaseyi Ojo,2016-17
+489,208,James Milner,James Milner,2016-17
+482,209,Roberto Firmino,Roberto Firmino,2016-17
 -1,210,,Cameron Brannagan,2016-17
 -1,211,,Pedro Chirivella,2016-17
+838,212,Sadio Mané,Sadio Mané,2016-17
+606,213,Christian Benteke,Christian Benteke,2016-17
+483,214,Daniel Sturridge,Daniel Sturridge,2016-17
 -1,215,,Mario Balotelli,2016-17
 986,216,Danny Ings,Danny Ings,2016-17
+484,217,Divock Origi,Divock Origi,2016-17
 609,218,Joe Hart,Joe Hart,2016-17
+624,219,Willy Caballero,Willy Caballero,2016-17
+621,220,Aleksandar Kolarov,Aleksandar Kolarov,2016-17
+610,221,Pablo Zabaleta,Pablo Zabaleta,2016-17
+612,222,Vincent Kompany,Vincent Kompany,2016-17
+613,223,Gaël Clichy,Gaël Clichy,2016-17
+625,224,Bacary Sagna,Bacary Sagna,2016-17
 626,225,Eliaquim Mangala,Eliaquim Mangala,2016-17
+611,226,Nicolás Otamendi,Nicolás Otamendi,2016-17
+876,227,Fabian Delph,Fabian Delph,2016-17
+618,228,Raheem Sterling,Raheem Sterling,2016-17
+877,229,Samir Nasri,Samir Nasri,2016-17
+617,230,David Silva,David Silva,2016-17
 878,231,Yaya Touré,Gnegneri Yaya Touré,2016-17
+616,232,Jesús Navas,Jesús Navas,2016-17
 614,233,Fernandinho,Fernando Luiz Rosa,2016-17
+615,234,Fernando,Fernando Francisco Reges,2016-17
+447,235,Kevin De Bruyne,Kevin De Bruyne,2016-17
+314,236,Ilkay Gündogan,Ilkay Gündogan,2016-17
+1732,237,Nolito,Manuel Agudo Durán,2016-17
 2958,238,Oleksandr Zinchenko,Oleksandr Zinchenko,2016-17
+619,239,Sergio Agüero,Sergio Agüero,2016-17
+622,240,Wilfried Bony,Wilfried Bony,2016-17
+620,241,Kelechi Iheanacho,Kelechi Iheanacho,2016-17
+546,242,David de Gea,David de Gea,2016-17
+560,243,Sergio Romero,Sergio Romero,2016-17
+628,244,Chris Smalling,Chris Smalling,2016-17
+951,245,Phil Jones,Phil Jones,2016-17
 -1,246,,Guillermo Varela,2016-17
+1006,247,Luke Shaw,Luke Shaw,2016-17
+550,248,Marcos Rojo,Marcos Rojo,2016-17
+878,249,Yaya Touré,Gnegneri Yaya Touré,2016-17
+559,249,Paddy McNair,Patrick McNair,2016-17
+614,250,Fernandinho,Fernando Luiz Rosa,2016-17
+627,250,Antonio Valencia,Antonio Valencia,2016-17
+557,251,Matteo Darmian,Matteo Darmian,2016-17
 -1,252,,Cameron Borthwick-Jackson,2016-17
+549,253,Timothy Fosu-Mensah,Timothy Fosu-Mensah,2016-17
+548,254,Daley Blind,Daley Blind,2016-17
+1739,255,Eric Bailly,Eric Bailly,2016-17
+554,256,Juan Mata,Juan Mata,2016-17
+630,257,Marouane Fellaini,Marouane Fellaini,2016-17
+555,258,Memphis Depay,Memphis Depay,2016-17
+5543,259,Gabriel Jesus,Gabriel Fernando de Jesus,2016-17
+654,259,Michael Carrick,Michael Carrick,2016-17
+631,260,Ashley Young,Ashley Young,2016-17
+323,261,Adnan Januzaj,Adnan Januzaj,2016-17
+552,262,Ander Herrera,Ander Herrera,2016-17
 922,263,Andreas Pereira,Andreas Pereira,2016-17
+551,264,Morgan Schneiderlin,Morgan Schneiderlin,2016-17
 -1,265,,Bastian Schweinsteiger,2016-17
+558,266,Jesse Lingard,Jesse Lingard,2016-17
+553,267,Anthony Martial,Anthony Martial,2016-17
+317,268,Henrikh Mkhitaryan,Henrikh Mkhitaryan,2016-17
+629,269,Wayne Rooney,Wayne Rooney,2016-17
 -1,270,,James Wilson,2016-17
+556,271,Marcus Rashford,Marcus Rashford,2016-17
+1741,272,Zlatan Ibrahimovic,Zlatan Ibrahimovic,2016-17
 -1,273,,Dimitrios Konstantopoulos,2016-17
+1705,274,Víctor Valdés,Víctor Valdés,2016-17
+1718,275,Daniel Ayala,Daniel Ayala,2016-17
+1708,276,George Friend,George Friend,2016-17
 -1,277,,Dael Fry,2016-17
+1707,278,Ben Gibson,Ben Gibson,2016-17
+1757,279,Nsue,Emilio Nsue Lopez,2016-17
+1716,280,Bernardo,Bernardo Espinosa Zúñiga,2016-17
+1782,281,Albert Adomah,Albert Adomah,2016-17
+1712,282,Stewart Downing,Stewart Downing,2016-17
+1717,283,Adam Clayton,Adam Clayton,2016-17
+5542,284,Grant Leadbitter,Grant Leadbitter,2016-17
 -1,285,,Adam Reach,2016-17
+1711,286,Adam Forshaw,Adam Forshaw,2016-17
 -1,287,,Carlos De Pena,2016-17
 -1,288,,Julien de Sart,2016-17
+1713,289,Viktor Fischer,Viktor Fischer,2016-17
+1710,290,Marten de Roon,Marten de Roon,2016-17
+1753,291,David Nugent,David Nugent,2016-17
+1714,292,Jordan Rhodes,Jordan Rhodes,2016-17
+1709,293,Cristhian Stuani,Cristhian Stuani,2016-17
+831,294,Fraser Forster,Fraser Forster,2016-17
 973,295,Paulo Gazzaniga,Paulo Gazzaniga,2016-17
+835,296,Ryan Bertrand,Ryan Bertrand,2016-17
 834,297,José Fonte,Jose Fonte,2016-17
+845,298,Maya Yoshida,Maya Yoshida,2016-17
+884,299,Matt Targett,Matt Targett,2016-17
 -1,300,,Florin Gardos,2016-17
+847,301,Cédric Soares,Cédric Soares,2016-17
+832,302,Cuco Martina,Cuco Martina,2016-17
+833,303,Virgil van Dijk,Virgil van Dijk,2016-17
+790,304,Nathan Redmond,Nathan Redmond,2016-17
+883,305,Steven Davis,Steven Davis,2016-17
+843,306,James Ward-Prowse,James Ward-Prowse,2016-17
+910,307,Harrison Reed,Harrison Reed,2016-17
+840,308,Dusan Tadic,Dusan Tadic,2016-17
+837,309,Jordy Clasie,Jordy Clasie,2016-17
 842,310,Oriol Romeu,Oriol Romeu Vidal,2016-17
+844,311,Jay Rodriguez,Jay Rodriguez,2016-17
+343,312,Pierre-Emile Højbjerg,Pierre-Emile Højbjerg,2016-17
+839,313,Shane Long,Shane Long,2016-17
+848,314,Charlie Austin,Charlie Austin,2016-17
+889,315,Shay Given,Shay Given,2016-17
+856,316,Jack Butland,Jack Butland,2016-17
 -1,317,,Jakob Haugaard,2016-17
+886,318,Ryan Shawcross,Ryan Shawcross,2016-17
+945,319,Marc Wilson,Marc Wilson,2016-17
+842,320,Oriol Romeu,Oriol Romeu Vidal,2016-17
+859,320,Geoff Cameron,Geoff Cameron,2016-17
+887,321,Erik Pieters,Erik Pieters,2016-17
+860,322,Marc Muniesa,Marc Muniesa,2016-17
+857,323,Phil Bardsley,Phil Bardsley,2016-17
+5565,323,Josh Sims,Joshua Sims,2016-17
+858,324,Philipp Wollscheid,Philipp Wollscheid,2016-17
+944,325,Glen Johnson,Glen Johnson,2016-17
 -1,326,,Dionatan do Nascimento Teixeira,2016-17
 867,327,Stephen Ireland,Stephen Ireland,2016-17
--1,335,,Bojan Krkic,2016-17
+873,328,Charlie Adam,Charlie Adam,2016-17
+862,329,Glenn Whelan,Glenn Whelan,2016-17
+863,330,Jonathan Walters,Jonathan Walters,2016-17
+865,331,Marko Arnautovic,Marko Arnautovic,2016-17
+864,332,Ibrahim Afellay,Ibrahim Afellay,2016-17
+888,333,Xherdan Shaqiri,Xherdan Shaqiri,2016-17
+861,334,Giannelli Imbula,Giannelli Imbula,2016-17
+871,335,,Bojan Krkic,2016-17
+872,336,Peter Crouch,Peter Crouch,2016-17
+868,337,Mame Biram Diouf,Mame Biram Diouf,2016-17
 866,338,Joselu,Jose Luis Mato Sanmartín,2016-17
+726,339,Vito Mannone,Vito Mannone,2016-17
+741,340,Jordan Pickford,Jordan Pickford,2016-17
+736,341,Younes Kaboul,Younes Kaboul,2016-17
+729,342,John O&#039;Shea,John O'Shea,2016-17
+742,343,Billy Jones,Billy Jones,2016-17
+730,344,Patrick van Aanholt,Patrick van Aanholt,2016-17
 -1,345,,Adam Matthews,2016-17
+728,346,Lamine Koné,Lamine Koné,2016-17
+232,347,Jan Kirchhoff,Jan Kirchhoff,2016-17
+738,348,Lee Cattermole,Lee Cattermole,2016-17
+740,349,Sebastian Larsson,Sebastian Larsson,2016-17
+733,350,Jack Rodwell,Jack Rodwell,2016-17
+781,351,Jeremain Lens,Jeremain Lens,2016-17
+734,352,Wahbi Khazri,Wahbi Khazri,2016-17
+919,353,Duncan Watmore,Duncan Watmore,2016-17
+737,354,Fabio Borini,Fabio Borini,2016-17
+735,355,Jermain Defoe,Jermain Defoe,2016-17
+706,356,Lukasz Fabianski,Lukasz Fabianski,2016-17
+722,357,Kristoffer Nordfeldt,Kristoffer Nordfeldt,2016-17
+718,358,Kyle Naughton,Kyle Naughton,2016-17
+709,359,Ashley Williams,Ashley Williams,2016-17
+710,360,Neil Taylor,Neil Taylor,2016-17
+707,361,Angel Rangel,Angel Rangel,2016-17
+721,362,Jordi Amat,Jordi Amat,2016-17
+708,363,Federico Fernández,Federico Fernández,2016-17
+723,363,Ki Sung-yueng,Sung-yueng Ki,2016-17
 -1,364,,Franck Tabanou,2016-17
+892,365,Stephen Kingsley,Stephen Kingsley,2016-17
+1702,366,Mike van der Hoorn,Mike van der Hoorn,2016-17
+712,367,Jack Cork,Jack Cork,2016-17
+714,368,Gylfi Sigurdsson,Gylfi Sigurdsson,2016-17
+719,369,Wayne Routledge,Wayne Routledge,2016-17
+830,370,Leon Britton,Leon Britton,2016-17
+896,371,Jay Fulton,Jay Fulton,2016-17
 723,372,Ki Sung-yueng,Sung-yueng Ki,2016-17
+715,373,Jefferson Montero,Jefferson Montero,2016-17
+713,374,André Ayew,André Ayew,2016-17
+711,375,Leroy Fer,Leroy Fer,2016-17
+783,376,Nathan Dyer,Nathan Dyer,2016-17
 -1,377,,Bafétimbi Gomis,2016-17
 -1,378,,Marvin Emnes,2016-17
+720,379,Modou Barrow,Modou Barrow,2016-17
+637,380,Hugo Lloris,Hugo Lloris,2016-17
+651,381,Michel Vorm,Michel Vorm,2016-17
+639,382,Toby Alderweireld,Toby Alderweireld,2016-17
+641,383,Danny Rose,Danny Rose,2016-17
+638,384,Kyle Walker,Kyle Walker,2016-17
+640,385,Jan Vertonghen,Jan Vertonghen,2016-17
+660,386,Ben Davies,Ben Davies,2016-17
+652,387,Kieran Trippier,Kieran Trippier,2016-17
+645,388,Dele Alli,Bamidele Alli,2016-17
+650,388,Kevin Wimmer,Kevin Wimmer,2016-17
 727,389,DeAndre Yedlin,DeAndre Yedlin,2016-17
+453,390,Son Heung-Min,Heung-Min Son,2016-17
+643,390,Eric Dier,Eric Dier,2016-17
+642,391,Mousa Dembélé,Mousa Dembélé,2016-17
+648,392,Nacer Chadli,Nacer Chadli,2016-17
+644,393,Erik Lamela,Erik Lamela,2016-17
+646,394,Christian Eriksen,Christian Eriksen,2016-17
 -1,395,,Nabil Bentaleb,2016-17
+649,396,Ryan Mason,Ryan Mason,2016-17
+653,397,Tom Carroll,Tom Carroll,2016-17
 645,398,Dele Alli,Bamidele Alli,2016-17
+661,399,Josh Onomah,Joshua Onomah,2016-17
+836,400,Victor Wanyama,Victor Wanyama,2016-17
 815,401,Alex Pritchard,Alex Pritchard,2016-17
 453,402,Son Heung-Min,Heung-Min Son,2016-17
+647,403,Harry Kane,Harry Kane,2016-17
 -1,404,,Clinton N'Jie,2016-17
+1730,405,Vincent Janssen,Vincent Janssen,2016-17
+580,406,Costel Pantilimon,Costel Pantilimon,2016-17
+564,407,Heurelho Gomes,Heurelho Gomes,2016-17
+581,408,Craig Cathcart,Craig Cathcart,2016-17
+566,409,Sebastian Prödl,Sebastian Prödl,2016-17
 -1,410,,Juan Carlos Paredes,2016-17
+568,411,José Holebas,José Holebas,2016-17
 565,412,Nyom,Allan-Roméo Nyom,2016-17
+567,413,Miguel Britos,Miguel Britos,2016-17
+1725,414,Christian Kabasele,Christian Kabasele,2016-17
+583,415,Adlène Guédioura,Adlène Guédioura,2016-17
+572,416,Etienne Capoue,Etienne Capoue,2016-17
 -1,417,,Almen Abdi,2016-17
+571,418,Ben Watson,Ben Watson,2016-17
+577,419,Ikechi Anya,Ikechi Anya,2016-17
+570,420,Valon Behrami,Valon Behrami,2016-17
 -1,421,,Steven Berghuis,2016-17
+565,422,Nyom,Allan-Roméo Nyom,2016-17
+575,422,Nordin Amrabat,Nordin Amrabat,2016-17
 -1,423,,Mario Suárez,2016-17
+1724,424,Isaac Success,Isaac Success,2016-17
+574,425,Troy Deeney,Troy Deeney,2016-17
+573,426,Odion Ighalo,Odion Ighalo,2016-17
 -1,427,,Mamadou Obbi Oularé,2016-17
+972,428,Jerome Sinclair,Jerome Sinclair,2016-17
 820,429,Boaz Myhill,Boaz Myhill,2016-17
+803,430,Ben Foster,Ben Foster,2016-17
+807,431,Jonny Evans,Jonny Evans,2016-17
+805,432,Jonas Olsson,Jonas Olsson,2016-17
+804,433,Craig Dawson,Craig Dawson,2016-17
 -1,434,,Sébastien Pocognoli,2016-17
 -1,435,,Cristian Gamboa,2016-17
+806,436,Gareth McAuley,Gareth McAuley,2016-17
 -1,437,,James Chester,2016-17
+904,438,Chris Brunt,Chris Brunt,2016-17
+527,438,Adrián,Adrián San Miguel del Castillo,2016-17
+809,439,Darren Fletcher,Darren Fletcher,2016-17
+812,440,Craig Gardner,Craig Gardner,2016-17
+834,440,José Fonte,Jose Fonte,2016-17
+990,441,James Morrison,James Morrison,2016-17
+808,442,Claudio Yacob,Claudio Yacob,2016-17
 -1,443,,Callum McManaman,2016-17
+814,444,James McClean,James McClean,2016-17
+879,445,Jonathan Leko,Jonathan Leko,2016-17
+1737,446,Matt Phillips,Matt Phillips,2016-17
+816,447,Rickie Lambert,Rickie Lambert,2016-17
+811,448,Saido Berahino,Saido Berahino,2016-17
+813,449,Salomón Rondón,Salomón Rondón,2016-17
 527,450,Adrián,Adrián San Miguel del Castillo,2016-17
+540,451,Darren Randolph,Darren Randolph,2016-17
+655,452,James Collins,James Collins,2016-17
+529,453,Winston Reid,Winston Reid,2016-17
+534,454,Aaron Cresswell,Aaron Cresswell,2016-17
 543,455,Reece Oxford,Reece Oxford,2016-17
+528,456,Angelo Ogbonna,Angelo Ogbonna,2016-17
+902,457,Sam Byram,Sam Byram,2016-17
+533,458,Mark Noble,Mark Noble,2016-17
+532,459,Cheikhou Kouyaté,Cheikhou Kouyaté,2016-17
+542,460,Pedro Obiang,Pedro Obiang,2016-17
+536,461,Dimitri Payet,Dimitri Payet,2016-17
+535,462,Manuel Lanzini,Manuel Lanzini,2016-17
 1018,463,Josh Cullen,Josh Cullen,2016-17
+531,464,Michail Antonio,Michail Antonio,2016-17
+202,465,Håvard Nordtveit,Håvard Nordtveit,2016-17
+1674,466,Sofiane Feghouli,Sofiane Feghouli,2016-17
+1703,467,Gökhan Töre,Gökhan Töre,2016-17
+537,468,Andy Carroll,Andy Carroll,2016-17
+539,469,Enner Valencia,Enner Valencia,2016-17
+656,470,Diafra Sakho,Diafra Sakho,2016-17
 5552,471,Nick Pope,Nick Pope,2016-17
+1667,472,Paul Robinson,Paul Robinson,2016-17
+1663,473,Johann Berg Gudmundsson,Johann Berg Gudmundsson,2016-17
+265,474,Ragnar Klavan,Ragnar Klavan,2016-17
+1669,475,Marko Grujic,Marko Grujic,2016-17
+1039,476,Jason Denayer,Jason Denayer,2016-17
+1706,477,Antonio Barragán,Antonio Barragán,2016-17
+1715,478,Álvaro Negredo,Álvaro Negredo,2016-17
+1722,479,Juan Zuñiga,Juan Zuñiga,2016-17
 -1,480,,Tommie Hoban,2016-17
 -1,481,,Brice Dja Djédjé,2016-17
+1726,482,Abdoulaye Doucouré,Abdoulaye Doucouré,2016-17
+1017,483,Matej Vydra,Matej Vydra,2016-17
+1749,484,Rob Holding,Rob Holding,2016-17
+771,485,Georginio Wijnaldum,Georginio Wijnaldum,2016-17
+1764,486,Ramadan Sobhi,Ramadan Sobhi,2016-17
+725,487,Ola Aina,Ola Aina,2016-17
+668,488,Idrissa Gueye,Idrissa Gueye,2016-17
+337,489,Leroy Sané,Leroy Sané,2016-17
+662,490,Brad Guzan,Bradley Guzan,2016-17
+952,491,Gastón Ramírez,Gastón Ramírez,2016-17
+1784,492,Jérémy Pied,Jérémy Pied,2016-17
 -1,493,,Chuba Akpom,2016-17
+1070,494,Sullay Kaikai,Sullay Kaikai,2016-17
+985,495,Mason Holgate,Mason Holgate,2016-17
 782,496,Ben Chilwell,Benjamin Chilwell,2016-17
 -1,497,,Bartosz Kapustka,2016-17
 -1,498,,Jose Angel Esmoris Tasende,2016-17
+1071,499,Papy Djilobodji,Papy Djilobodji,2016-17
+1728,500,Fernando Llorente,Fernando Llorente,2016-17
 -1,501,,Cameron Carter-Vickers,2016-17
 -1,502,,Daniel Lafferty,2016-17
+1740,503,Paul Pogba,Paul Pogba,2016-17
+1735,504,Jack Stephens,Jack Stephens,2016-17
+1760,505,Arthur Masuaku,Arthur Masuaku,2016-17
+1048,506,Donald Love,Donald Love,2016-17
+1701,507,Borja Bastón,Borja Bastón,2016-17
 1778,508,Freddie Ladapo,Olayinka Fredrick Oladotun Ladapo,2016-17
 -1,509,,Keshi Anderson,2016-17
 -1,510,,Kane Wilson,2016-17
+1013,511,Sam Field,Sam Field,2016-17
+1042,512,Tom Davies,Tom Davies,2016-17
+971,513,Harry Winks,Harry Winks,2016-17
 -1,514,,Greg Olley,2016-17
 -1,515,,Josh Clackstone,2016-17
+1776,516,Jarrod Bowen,Jarrod Bowen,2016-17
 -1,517,,Dusan Kuciak,2016-17
 -1,518,,Greg Luer,2016-17
+1745,519,Josh Tymon,Josh Tymon,2016-17
+1027,520,Lynden Gooch,Lynden Gooch,2016-17
+1754,521,Joel Asoro,Joel Asoro,2016-17
 -1,522,,Alex Baptiste,2016-17
+1791,523,Trent Alexander-Arnold,Trent Alexander-Arnold,2016-17
 -1,524,,Alexander Manninger,2016-17
+1657,525,Steven Defour,Steven Defour,2016-17
+1672,526,Jonathan Calleri,Jonathan Calleri,2016-17
+1752,527,Fabio,Fabio Pereira da Silva,2016-17
 -1,528,,Pablo Maffeo,2016-17
 -1,529,,Luke McGee,2016-17
+1677,530,Nathaniel Chalobah,Nathaniel Chalobah,2016-17
+1662,531,Aiden O&#039;Neill,Aiden O'Neill,2016-17
 -1,532,,Josh Robson,2016-17
+924,533,Steven Pienaar,Steven Pienaar,2016-17
 -1,534,,Reece Burke,2016-17
+1675,535,Ashley Fletcher,Ashley Fletcher,2016-17
+1683,536,Ryan Fraser,Ryan Fraser,2016-17
 -1,537,,Thomas Robson,2016-17
+1719,538,Javier Manquillo,Javier Manquillo,2016-17
+1723,539,Roberto Pereyra,Roberto Pereyra,2016-17
+764,540,Daryl Janmaat,Daryl Janmaat,2016-17
+1731,541,Claudio Bravo,Claudio Bravo,2016-17
+1673,542,Edimilson Fernandes,Edimilson Fernandes,2016-17
 -1,543,,Hiram Boateng,2016-17
+1777,544,Julien Ngoy,Julien Ngoy,2016-17
 -1,545,,Ben Hinchcliffe,2016-17
+1736,546,Oliver McBurnie,Oliver McBurnie,2016-17
 -1,547,,Maksymilian Stryjek,2016-17
 -1,548,,Jack Rose,2016-17
+1700,549,Lucas Pérez,Lucas Pérez,2016-17
+1642,550,Simone Zaza,Simone Zaza,2016-17
+1734,551,Sofiane Boufal,Sofiane Boufal,2016-17
+1763,552,Stefano Okaka,Stefano Okaka,2016-17
+822,553,Patrick Bamford,Patrick Bamford,2016-17
+1684,554,David Marshall,David Marshall,2016-17
+1699,555,Shkodran Mustafi,Shkodran Mustafi,2016-17
+524,556,Adrian Mariappa,Adrian Mariappa,2016-17
+1047,557,Will Keane,Will Keane,2016-17
+1727,558,Alfie Mawson,Alfie Mawson,2016-17
+1720,559,Didier Ndong,Didier Ndong,2016-17
+1746,560,Jeff Hendrick,Jeff Hendrick,2016-17
+1621,561,Marcos Alonso,Marcos Alonso,2016-17
+1743,562,Bruno Martins Indi,Bruno Martins Indi,2016-17
+900,563,Adama Traoré,Adama Traoré,2016-17
 -1,564,,Pau López Sabata,2016-17
+1729,565,Georges-Kévin Nkoudou,Georges-Kévin Nkoudou,2016-17
 -1,566,,James Weir,2016-17
+1682,567,Islam Slimani,Islam Slimani,2016-17
+1704,568,Álvaro Arbeloa,Álvaro Arbeloa,2016-17
+795,569,Dieumerci Mbokani,Dieumerci Mbokani,2016-17
 1676,570,David Luiz,David Luiz Moreira Marinho,2016-17
+1738,571,Hal Robson-Kanu,Hal Robson-Kanu,2016-17
+772,572,Moussa Sissoko,Moussa Sissoko,2016-17
+1696,573,Markus Henriksen,Markus Henriksen,2016-17
+1742,574,Lee Grant,Lee Grant,2016-17
+818,575,Victor Anichebe,Victor Anichebe,2016-17
+895,576,Mathieu Flamini,Mathieu Flamini,2016-17
 -1,577,,Michael Simões Domingues,2016-17
+1055,578,Aleix García,Aleix García Serrano,2016-17
+1765,579,Jonathan Benteke,Jonathan Benteke,2016-17
+1671,580,Ezekiel Fryers,Ezekiel Fryers,2016-17
 -1,581,,Luke Dreher,2016-17
+1762,582,Ovie Ejaria,Oviemuno Ejaria,2016-17
 1759,583,Ben Hamer,Ben Hamer,2016-17
 -1,584,,Lloyd Isgrove,2016-17
 -1,585,,Ben Wynter,2016-17
 -1,586,,Jake Hesketh,2016-17
+1046,587,George Honeyman,George Honeyman,2016-17
 -1,588,,Jeff Reine-Adelaide,2016-17
 -1,589,,Olufela Olomola,2016-17
 1679,590,Dominic Solanke,Dominic Solanke,2016-17
 -1,591,,Raphael Spiegel,2016-17
+1733,592,Sam McQueen,Sam McQueen,2016-17
+1750,593,Ainsley Maitland-Niles,Ainsley Maitland-Niles,2016-17
+1747,594,Kevin Long,Kevin Long,2016-17
+5555,595,Dominic Calvert-Lewin,Dominic Calvert-Lewin,2016-17
 -1,596,,Mateusz Hewelt,2016-17
 -1,597,,Stuart Taylor,2016-17
 -1,598,,Daniel James,2016-17
 -1,599,,Thibaud Verlinden,2016-17
+1050,600,Ryan Allsop,Ryan Allsop,2016-17
 -1,601,,Alex Palmer,2016-17
+4441,602,Matthew James,Matthew James,2016-17
+5557,603,Ben Woodburn,Ben Woodburn,2016-17
 5565,604,Josh Sims,Joshua Sims,2016-17
+5548,605,Andrew Eleftheriou,Andrew Eleftheriou,2016-17
 -1,606,,Michael Phillips,2016-17
 -1,607,,Oluwatosin Adarabioyo,2016-17
 -1,608,,Alex Pike,2016-17
@@ -670,35 +633,71 @@ Understat_ID,FPL_ID,Understat_Name,FPL_Name,season
 -1,613,,Josh Maja,2016-17
 5562,614,Rekeem Harper,Rekeem Harper,2016-17
 -1,615,,Ethan Robson,2016-17
+1084,616,Jonjoe Kenny,Jonjoe Kenny,2016-17
 -1,617,,Elliot Embleton,2016-17
+5553,618,Declan Rice,Declan Rice,2016-17
 -1,619,,Charlie Rowan,2016-17
+5586,620,Michael Folivi,Michael Folivi,2016-17
+5558,621,Brandon Mason,Brandon Mason,2016-17
 -1,622,,Carl Stewart,2016-17
 -1,623,,Harry Lewis,2016-17
 -1,624,,Michael Ledger,2016-17
 5543,625,Gabriel Jesus,Gabriel Fernando de Jesus,2016-17
+4430,626,Joey Barton,Joey Barton,2016-17
+5556,627,Ademola Lookman,Ademola Lookman,2016-17
+5545,628,Wilfred Ndidi,Wilfred Ndidi,2016-17
+671,629,Rudy Gestede,Rudy Gestede,2016-17
+5550,630,Evandro,Evandro Goebel,2016-17
 -1,631,,Joel Taylor,2016-17
+5554,632,Luciano Narsingh,Luciano Narsingh,2016-17
+798,633,Martin Olsson,Martin Olsson,2016-17
+5551,634,Omar Elabdellaoui,Omar Elabdellaoui,2016-17
+664,635,Joleon Lescott,Joleon Lescott,2016-17
+939,636,Mauro Zárate,Mauro Zárate,2016-17
+1126,637,M&#039;Baye Niang,M'Baye Niang,2016-17
+1522,638,Andrea Ranocchia,Andrea Ranocchia,2016-17
 -1,639,,Giedrius Arlauskis,2016-17
+789,640,Robbie Brady,Robbie Brady,2016-17
+669,641,Ashley Westwood,Ashley Westwood,2016-17
+672,642,Jordan Ayew,Jordan Ayew,2016-17
+1383,643,Manolo Gabbiadini,Manolo Gabbiadini,2016-17
+2144,644,Alfred N&#039;Diaye,Alfred N'Diaye,2016-17
 1159,645,Molla Wagué,Molla Wagué,2016-17
+5549,646,Luka Milivojevic,Luka Milivojevic,2016-17
+3231,647,Kamil Grosicki,Kamil Grosicki,2016-17
 5593,648,Thomas Edwards,Thomas Edwards,2016-17
+976,649,Baily Cargill,Baily Cargill,2016-17
 -1,650,,Mouez Hassen,2016-17
+5563,651,Daniel Agyei,Daniel Agyei,2016-17
+1942,652,Martín Cáceres,Martín Cáceres,2016-17
 -1,653,,Harry Wilson,2016-17
 5568,654,Connor Roberts,Connor Roberts,2016-17
 -1,655,,Matthew Willock,2016-17
+934,656,Axel Tuanzebe,Axel Tuanzebe,2016-17
 4401,657,Emiliano Martinez,Damian Emiliano Martinez,2016-17
 -1,658,,Joe Williams,2016-17
+5559,659,Dion Pereira,Dion Pereira,2016-17
 -1,660,,Matt Macey,2016-17
+5576,661,James Husband,James Husband,2016-17
+5575,662,Joel Pereira,Joel Dinis Castro Pereira,2016-17
 -1,663,,Eduardo Dos Reis Carvalho,2016-17
 -1,664,,Moses Makasi,2016-17
 -1,665,,Nathan Holland,2016-17
 -1,666,,Rhian Brewster,2016-17
+5560,667,Scott McTominay,Scott McTominay,2016-17
 -1,668,,Angus Gunn,2016-17
+5574,669,Demetri Mitchell,Demetri Mitchell,2016-17
 -1,670,,Elliott Moore,2016-17
+5571,671,Filip Lesniak,Filip Lesniak,2016-17
 -1,672,,Samuel Shashoua,2016-17
 -1,673,,Zachary Dearnley,2016-17
+5597,674,Josh Harrop,Joshua Harrop,2016-17
 -1,675,,Daniel Kemp,2016-17
 -1,676,,Daniel Batty,2016-17
 5603,677,Aaron Ramsdale,Aaron Ramsdale,2016-17
+5601,678,Matt Worthington,Matthew Worthington,2016-17
 -1,679,,Sam Surridge,2016-17
+5598,680,Angel Gomes,Angel Gomes,2016-17
 -1,681,,Kieran O'Hara,2016-17
 -1,682,,Gerhard Tremmel,2016-17
 -1,683,,Rene Gilmartin,2016-17
@@ -3338,7 +3337,6 @@ Understat_ID,FPL_ID,Understat_Name,FPL_Name,season
 -1,606,,Daniel Langley,2020-21
 -1,348,,Simon Moore,2020-21
 -1,350,,Wes Foderingham,2020-21
--1,354,,Jack O'Connell,2020-21
 -1,477,,Luke Freeman,2020-21
 -1,580,,Michael Verrips,2020-21
 -1,646,,Kyron Gordon,2020-21
@@ -3365,7 +3363,6 @@ Understat_ID,FPL_ID,Understat_Name,FPL_Name,season
 -1,710,,Nile John,2020-21
 -1,416,,Kenneth Zohore,2020-21
 -1,420,,Jonathan Leko,2020-21
--1,425,,Dara O'Shea,2020-21
 -1,499,,Cedric Kipre,2020-21
 -1,621,,Cheikh Diaby,2020-21
 -1,639,,Andy Lonergan,2020-21
