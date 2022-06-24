@@ -97,8 +97,8 @@ def get_xCS(match_id):
     shotsData = pd.concat([shotsData_h, shotsData_a], ignore_index = True)
     shotsData['xCS'] = 1-shotsData.xG.astype('float64')
     
-    xCS_h = shotsData[shotsData['h_a'] == 'h'].xCS.product()
-    xCS_a = shotsData[shotsData['h_a'] == 'a'].xCS.product()
+    xCS_h = shotsData[shotsData['h_a'] == 'a'].xCS.product()
+    xCS_a = shotsData[shotsData['h_a'] == 'h'].xCS.product()
     
     xCS = pd.DataFrame({'match_id': match_id,
                         'xCS_h': xCS_h,
@@ -128,7 +128,6 @@ def parse_epl_data(outfile_base, season):
         player_name = player_name.replace(' ', '_')
         indi_player_frame.to_csv(os.path.join(outfile_base, 'players/', player_name + '_' + d['id'] + '.csv'), index=False)
     understat_players_merge(season)
-    datesData.to_csv(os.path.join(outfile_base, 'understat_fixtures.csv'), index=False)
     
     match_ids = get_matches_data(season_short)
     match_ids = match_ids[match_ids['isResult']==True]
@@ -138,6 +137,9 @@ def parse_epl_data(outfile_base, season):
         df_tmp = get_xCS(match_id)
         xCS = pd.concat([xCS, df_tmp], ignore_index = True)
     xCS.to_csv(os.path.join(outfile_base, 'understat_xCS.csv'), index=False)
+    
+    datesData = pd.merge(datesData, xCS, how = 'left', on = 'match_id')
+    datesData.to_csv(os.path.join(outfile_base, 'understat_fixtures.csv'), index=False)
 
 class PlayerID:
     def __init__(self, us_id, fpl_id, us_name, fpl_name):
@@ -191,9 +193,6 @@ def understat_players_merge(season='2021-22'):
     outfile = os.path.join('data', season, 'understat')
     df.to_csv(outfile + '/understat_players_merged.csv', index = False)
     return df
-
-def understat_xCS_merge(season='2021-22'):
-    directory = os.path.join('data', season, 'understat')
 
 def main():
     #parse_epl_data('data/2021-22/understat/')
