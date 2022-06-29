@@ -117,6 +117,7 @@ def parse_epl_data(outfile_base, season):
         team = data["title"].replace(' ', '_')
         team_frame['team'] = team
         team_frame.to_csv(os.path.join(outfile_base, 'teams/understat_' + team + '.csv'), index=False)
+        print(team)
     player_frame = pd.DataFrame.from_records(playerData)
     player_frame.to_csv(os.path.join(outfile_base, 'understat_player.csv'), index=False)
     for d in playerData:
@@ -127,8 +128,10 @@ def parse_epl_data(outfile_base, season):
         player_name = d['player_name']
         player_name = player_name.replace(' ', '_')
         indi_player_frame.to_csv(os.path.join(outfile_base, 'players/', player_name + '_' + d['id'] + '.csv'), index=False)
+        print(player_name)
     understat_players_merge(season)
     
+    print("xCS data")
     match_ids = get_matches_data(season_short)
     match_ids = match_ids[match_ids['isResult']==True]
     match_ids = match_ids[['id']]
@@ -182,7 +185,7 @@ def match_ids(understat_dir, data_dir):
         for p in players:
             outf.write(p.us_id + "," + p.fpl_id + "," + p.us_name + "," + p.fpl_name + "\n")
 
-def understat_players_merge(season='2021-22'):
+def understat_players_merge(season='2022-23'):
     df = pd.DataFrame()
     directory = os.path.join('data', season, 'understat/players')
     for root,dirs,files in os.walk(directory):
@@ -195,11 +198,11 @@ def understat_players_merge(season='2021-22'):
     return df
 
 def main():
-    #parse_epl_data('data/2021-22/understat/')
+    #parse_epl_data('data/2022-23/understat/')
     #md, sd, gd = get_player_data(318)
     #match_frame = pd.DataFrame.from_records(md)
     #match_frame.to_csv('auba.csv', index=False)
-    match_ids('data/2016-17/understat', 'data/2016-17')
+    match_ids('data/2022-23/understat', 'data/2022-23')
 
 if __name__ == '__main__':
     main()

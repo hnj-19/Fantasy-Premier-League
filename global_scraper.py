@@ -3,12 +3,14 @@ from cleaners import *
 from getters import *
 from collector import collect_gw, merge_gw
 from understat import parse_epl_data
+from spi_538 import get_spi_data
+from fbref import get_fbref_data
 import csv
 
 def parse_data():
     """ Parse and store all the data
     """
-    season = '2021-22'
+    season = '2022-23'
     base_filename = 'data/' + season + '/'
     print("Getting data")
     data = get_data()
@@ -54,7 +56,13 @@ def parse_data():
         print("Merging gw scores")
         merge_gw(gw_num, gw_base_filename)
     understat_filename = base_filename + 'understat/'
+    print("Getting understat data")
     parse_epl_data(understat_filename, season)
+    print("Getting fivethirtyeight SPI data")
+    get_spi_data()
+    print("Getting fbref data")
+    get_fbref_data()
+    print("Getting transfermarkt data")
 
 def fixtures(base_filename):
     data = get_fixtures_data()
