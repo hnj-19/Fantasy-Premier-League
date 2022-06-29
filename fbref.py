@@ -26,7 +26,7 @@ def get_fbref_data(season="2022-23"):
 
     season_urls = pl_history_urls[0:1]
     df = get_stats(features, season_urls, url_base)
-    df.to_csv(f'../fpl_data_fetch/data/{season}/fbref/fbref_data.csv')
+    df.to_csv(f'../fpl_data_fetch/data/{season}/fbref/fbref_data.csv', index = False, encoding = 'utf-8')
 
 ## functions to scrape fbref data
 # get stats (given by features) for all players/teams
