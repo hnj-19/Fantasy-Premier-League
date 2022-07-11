@@ -153,7 +153,7 @@ def get_urls(text_fields, url_field, table, url_base):
     return df
 
 def fbref_merge():
-    seasons = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22']
+    seasons = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
     df = pd.DataFrame()
     for season in seasons:
         _df = pd.read_csv(f'data/{season}/fbref/fbref_data.csv')

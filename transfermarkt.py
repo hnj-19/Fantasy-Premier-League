@@ -96,7 +96,7 @@ def get_transfermarkt_data(season = '2022-23', header_row=11, team_rows=range(13
     return df
 
 def transfermarkt_merge():
-    seasons = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22']
+    seasons = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
     df = pd.DataFrame()
     for season in seasons:
         _df = pd.read_csv(f'data/{season}/transfermarkt/transfermarkt_data.csv')

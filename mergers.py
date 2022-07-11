@@ -72,13 +72,15 @@ def export_cleaned_data(df):
     df.to_csv(filepath, encoding = 'utf-8', index = False)
     return df 
 
-def merge_position_data():
+def merge_position_data(season = '2022-23'):
     """
     Get position/team data for older data
     """
 
-    season_latin = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22']
-    encoding_latin = ['latin', 'latin', 'latin', 'utf-8', 'utf-8', 'utf-8'] 
+    # season_latin = ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+    # encoding_latin = ['latin', 'latin', 'latin', 'utf-8', 'utf-8', 'utf-8', 'utf-8'] 
+    season_latin = [season]
+    encoding_latin = ['utf-8']
     for season,encoding in zip(season_latin, encoding_latin):
         df_gw = pd.read_csv(f'data/{season}/gws/merged_gw.csv', encoding = encoding)
         df_players = pd.read_csv(f'data/{season}/players_raw.csv')
@@ -104,8 +106,24 @@ def merge_position_data():
         
         df_gw.to_csv(f'data/{season}/gws/merged_gw.csv', encoding = encoding, index = False)    
 
+def merge_play_prob_data(season = '2022-23'):
+    # season_latin = ['2019-20', '2020-21', '2021-22', '2022-23']
+    season_latin = [season]
+    for season in season_latin:
+        df_gw = pd.read_csv(f'data/{season}/gws/merged_gw.csv', encoding = 'utf-8')
+        df_play_prob = pd.read_csv(f'data/play_probabilities.csv', encoding = 'utf-8', usecols=[
+            'element',
+            'date',
+            'chance_of_playing_this_round'])
+        df_gw['date'] = pd.to_datetime(df_gw['kickoff_time']).dt.date
+        df_play_prob['date'] = pd.to_datetime(df_play_prob['date'], format =  "%d/%m/%Y").dt.date
+        df_gw = df_gw.merge(df_play_prob, how = 'left', left_on = ['element','date'], right_on= ['element','date'])
+        df_gw = df_gw.drop(columns=['date'])
+        df_gw.to_csv(f'data/{season}/gws/merged_gw.csv', encoding = 'utf-8', index = False)
+
 def main():
-    merge_position_data()
+    # merge_position_data()
+    merge_play_prob_data()
 
 if __name__ == '__main__':
     main()

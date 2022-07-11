@@ -1,8 +1,12 @@
+from asyncio import SubprocessTransport
+from distutils.command.build import build
 from operator import index
 import os
 import sys
 import csv
+from xml.dom.minidom import Element
 import pandas as pd
+import numpy as np
 
 def get_teams(directory):
     teams = {}
@@ -44,9 +48,19 @@ def get_expected_points(gw, directory):
     return xPoints
 
 def merge_gw(gw, gw_directory, encoding = 'utf-8'):
-    # merged_gw_filename = "merged_gw.csv"
-    gw_filename = "gw" + str(gw) + ".csv"
-    gw_path = os.path.join(gw_directory, gw_filename)
+    df_merged = pd.DataFrame()
+    merged_gw_filename = "merged_gw.csv"
+    out_path = os.path.join(gw_directory, merged_gw_filename)
+    for i in range(1,gw + 1):
+
+    
+        gw_filename = "gw" + str(i) + ".csv"
+        gw_path = os.path.join(gw_directory, gw_filename)
+        df = pd.read_csv(gw_path, encoding=encoding)
+        df['GW'] = i
+        pd.concat([df_merged,df],ignore_index=True, sort=False)
+    
+    df_merged.to_csv(out_path, index=False)
     # fin = open(gw_path, 'rU', encoding=encoding)
     # reader = csv.DictReader(fin)
     # fieldnames = reader.fieldnames
@@ -63,8 +77,7 @@ def merge_gw(gw, gw_directory, encoding = 'utf-8'):
     #     writer.writeheader()
     # for row in rows:
     #     writer.writerow(row)
-    df = pd.read_csv(gw_path, encoding=encoding)
-    df['GW'] = gw
+
     return(df)
 
 
@@ -128,6 +141,139 @@ def main():
     # collect_gw(37, sys.argv[1], sys.argv[2])
     merge_all_gws(39, 'data/2021-22/gws')
 
+def build_players(season):
+    # read in player information for each season and add to list
+    season_players = []
+
+    players = pd.read_csv(f'data/{season}/players_raw.csv', 
+                            usecols=['first_name', 'second_name', 'web_name', 'id', 
+                                    'element_type', 'now_cost', 'team',
+                                    'chance_of_playing_this_round', 'chance_of_playing_next_round', 'status'])
+    season_players.append(players)
+
+    # create full name field for each player
+    for players in season_players:
+        players['full_name'] = players['first_name'] + ' ' + players['second_name']
+        players.drop(['first_name', 'second_name'], axis=1, inplace=True)
+
+    # create series of all unique player names
+    all_players = pd.concat(season_players, axis=0, ignore_index=True, sort=False)
+    all_players = pd.DataFrame(all_players['full_name'].drop_duplicates())
+    all_players['season'] = season
+
+    # create player dataset with their id, team code and position id for each season
+    for players in season_players:
+        all_players = all_players.merge(players, on='full_name', how='left')
+
+    element_type_dict = {
+            1: 'GK',
+            2: 'DEF',
+            3: 'MID',
+            4: 'FWD'
+        }
+    all_players['position'] = all_players['element_type'].replace(element_type_dict) 
+    all_players = all_players.drop(columns=['element_type'])
+    all_players = all_players.rename(columns={'id': 'element'})
+    return all_players
+
+def collect_fixtures(season, gw):
+    # get fixtures
+    fixtures = pd.read_csv(f'data/{season}/fixtures.csv')
+    teams = pd.read_csv(f'data/{season}/teams.csv')
+    team_dict = teams[['id', 'name']].dropna().set_index('id').to_dict()['name']
+
+    fixtures['home_team'] = fixtures['team_h'].replace(team_dict)
+    fixtures['away_team'] = fixtures['team_a'].replace(team_dict)
+    fixtures = fixtures[['home_team', 'away_team', 'team_h','team_a', 'kickoff_time', 'event']]
+    fixtures = fixtures.rename(columns={'event':'gw'})
+
+
+    # use these two lines if updating play_proba later in week
+    # current_gw = last_gw
+    # df_train_new = pd.read_csv(path/'train_v7.csv', index_col=0, dtype={'season':str,
+    #                                                                     'comp':str,
+    #                                                                     'squad':str})
+ 
+    # set starting gameweek (where are we right now in the season)
+    current_gw = gw + 1
+    fixtures = fixtures[fixtures['gw'] >= current_gw].sort_values(by=['gw'])
+    fixtures['match_no'] = np.arange(fixtures.shape[0])
+    
+    # add universal team codes for home and away teams
+    fixtures = fixtures.merge(teams, left_on='home_team', right_on='name', how='left')
+    fixtures = fixtures.merge(teams, left_on='away_team', right_on='name', how='left')
+    fixtures = fixtures[['gw', 'match_no', 'home_team', 'away_team', 'team_h','team_a', 'kickoff_time']]
+    
+    return fixtures
+
+def collect_remaining_season(season, gw):
+    # join home team to all players for current season
+    fixtures = collect_fixtures(season, gw)
+    all_players = build_players(season)
+    home_df = fixtures.merge(all_players, 
+                left_on='team_h', 
+                right_on='team', 
+                how='left')
+    home_df['team'] = home_df['home_team']
+
+    # pull out the required fields and rename columns
+    home_df = home_df[['season', 'gw', 'match_no', 'home_team', 'away_team', 'kickoff_time', 
+                    'full_name', 'element', 'team', 'position', 'now_cost', 'chance_of_playing_this_round', 
+                    'chance_of_playing_next_round', 'status', 'web_name']]
+    
+
+    # add home flag
+    home_df['was_home'] = True
+
+    # join away team to all players for current season
+    away_df = fixtures.merge(all_players, 
+                left_on='team_a', 
+                right_on='team', 
+                how='left')
+    away_df['team'] = away_df['away_team']
+
+    # pull out the required fields and rename columns
+    away_df = away_df[['season', 'gw',  'match_no', 'home_team', 'away_team', 'kickoff_time', 
+                    'full_name', 'element', 'team', 'position', 'now_cost', 'chance_of_playing_this_round', 
+                    'chance_of_playing_next_round','status', 'web_name']]
+
+    # add home flag
+    away_df['was_home'] = False
+
+    # concatenate home and away players
+    remaining_season_df = pd.concat([home_df,away_df], ignore_index=True).reset_index(drop=True)
+
+    # divide cost by 10 for actual cost
+    remaining_season_df['price'] = remaining_season_df['now_cost']/10
+
+    # set availability probability
+    # 0 = 0% chance, 25 = 25% chance, etc
+    # 'None' or '100' = 100% chance
+    remaining_season_df.loc[remaining_season_df['chance_of_playing_this_round'] == 'None', 'chance_of_playing_this_round'] = 100
+    remaining_season_df['chance_of_playing_this_round'] = remaining_season_df['chance_of_playing_this_round'].astype('float')
+    remaining_season_df.loc[remaining_season_df['chance_of_playing_next_round'] == 'None', 'chance_of_playing_next_round'] = 100
+    remaining_season_df['chance_of_playing_next_round'] = remaining_season_df['chance_of_playing_next_round'].astype('float')
+    
+    remaining_season_df.to_csv(f'data/{season}/remaining_season.csv', index=False)
+    
+    return remaining_season_df
+
+def collect_play_probabilities(season, gw):
+    df_play_probs_merged = pd.read_csv('data/play_probabilities.csv')
+    df_play_probs_current = pd.read_csv(f'data/{season}/remaining_season.csv')
+    df_play_probs_current['date'] = pd.to_datetime(df_play_probs_current['kickoff_time']).dt.date
+    df_play_probs_current = df_play_probs_current[df_play_probs_current['gw'] == gw]
+
+    df_play_probs_current = df_play_probs_current[['full_name', 'season', 'chance_of_playing_this_round','date', 'element']]
+    df_play_probs_current = df_play_probs_current.rename(columns={'full_name':'player'})
+    df_play_probs_current = df_play_probs_current.drop_duplicates(subset=['element'])
+    
+    df = pd.concat([df_play_probs_merged, df_play_probs_current], ignore_index= True)
+    df.to_csv('data/play_probabilities.csv', index=False)
+
+def main():
+    # collect_remaining_season('2022-23', 0)
+    collect_play_probabilities('2022-23', 0)
 
 if __name__ == '__main__':
     main()

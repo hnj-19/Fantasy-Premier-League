@@ -8,7 +8,7 @@ def clean_players(filename, base_filename):
     Args:
         filename (str): Name of the file that contains the full data for each player
     """
-    headers = ['first_name', 'second_name', 'goals_scored', 'assists', 'total_points', 'minutes', 'goals_conceded', 'creativity', 'influence', 'threat', 'bonus', 'bps', 'ict_index', 'clean_sheets', 'red_cards', 'yellow_cards', 'selected_by_percent', 'now_cost', 'element_type']
+    headers = ['first_name', 'second_name', 'goals_scored', 'assists', 'total_points', 'minutes', 'goals_conceded', 'creativity', 'influence', 'threat', 'bonus', 'bps', 'ict_index', 'clean_sheets', 'red_cards', 'yellow_cards', 'selected_by_percent', 'now_cost', 'element_type', 'chance_of_playing_this_round']
     fin = open(filename, 'r+', encoding='utf-8')
     outname = base_filename + 'cleaned_players.csv'
     os.makedirs(os.path.dirname(outname), exist_ok=True)

@@ -1,10 +1,11 @@
 from parsers import *
 from cleaners import *
 from getters import *
-from collector import collect_gw, merge_gw
+from collector import collect_gw, collect_play_probabilities, collect_remaining_season, merge_gw
 from understat import parse_epl_data
 from spi_538 import get_spi_data
 from fbref import get_fbref_data
+from transfermarkt import get_transfermarkt_data
 import csv
 
 def parse_data():
@@ -55,14 +56,17 @@ def parse_data():
         collect_gw(gw_num, player_base_filename, gw_base_filename, base_filename) 
         print("Merging gw scores")
         merge_gw(gw_num, gw_base_filename)
+    collect_remaining_season(season, gw_num)
+    collect_play_probabilities(season, gw_num)
     understat_filename = base_filename + 'understat/'
     print("Getting understat data")
-    parse_epl_data(understat_filename, season)
-    print("Getting fivethirtyeight SPI data")
-    get_spi_data()
-    print("Getting fbref data")
-    get_fbref_data()
+    # parse_epl_data(understat_filename, season)
+    # print("Getting fivethirtyeight SPI data")
+    # get_spi_data()
+    # print("Getting fbref data")
+    # get_fbref_data(season = season)
     print("Getting transfermarkt data")
+    get_transfermarkt_data(season = season)
 
 def fixtures(base_filename):
     data = get_fixtures_data()
